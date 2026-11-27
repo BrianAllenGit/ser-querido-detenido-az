@@ -23,6 +23,9 @@ US_GOV = "US government work (17 U.S.C. 105: no copyright in the United States).
 LOCATOR = "https://www.ice.gov/locator"  # the address ICE's own brochure gives; it forwards to locator.ice.gov/odls
 ACIS = {"es": "https://acis.eoir.justice.gov/es/", "en": "https://acis.eoir.justice.gov/en/"}
 FLORENCE_SITE = "https://firrp.org/"
+FFI_EN = "https://www.freedomforimmigrants.org/resources"
+FFI_ES = "https://www.freedomforimmigrants.org/recursos"
+WRC_ES = "https://www.womensrefugeecommission.org/wp-content/uploads/2025/02/Me-han-detenido-o-deportado-Que-pasara-con-mis-hijos-o-hijas-2025-1.pdf"
 FLORENCE_FAMILY = "https://firrp.org/resources/prose/parentalrights/"
 ACLU_REQUEST = "https://www.acluaz.org/en/resources/requesting-legal-assistance-aclu-arizona"
 ACLU_WEHAVE = "https://www.aclu.org/we-have-rights"
@@ -34,32 +37,88 @@ KJZZ = "https://www.kjzz.org/fronteras-desk/2026-10-30/new-lawsuit-alleges-ice-i
 
 # id -> (url, Spanish label, English label, what we took from it, terms note)
 SOURCES = {
-    "ice_brochure_es": (
-        "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
-        "ICE: Folleto del Sistema Localizador de Detenidos en Línea (PDF, en español, 12/2021)",
-        "ICE: Online Detainee Locator System brochure, Spanish version (PDF, 12/2021)",
-        "Six passages word for word (what the ODLS is, the two ways to search, exact spelling, who is not in it, what to do after finding someone, what to do if not found). Dated 12/2021 on the PDF. The Spanish PDF text has no explanation under the second way to search (its first words are missing in the file), so only that heading is quoted; the English version has the full text. The sentence that gives the field-office web address is not copied (the PDF text loses a hyphen in the address).",
-        US_GOV + "ICE's own website-policies page returned \"Page Not Found\" when read (tools/captures/terms_ice.txt), so ICE's reuse statement was not read.",
+    "ffi_resources": (
+        FFI_EN,
+        "Freedom for Immigrants: «Resources for Individuals Facing Detention or Risk of Deportation, their Families and Loved Ones, and Advocates» (en inglés)",
+        "Freedom for Immigrants: \"Resources for Individuals Facing Detention or Risk of Deportation, their Families and Loved Ones, and Advocates\" (English)",
+        "GUIDE CARD, link only. Read in full on 2026-11-27 (tools/captures/research/ffi_en.txt). No date on the page. Topics used on the card come from its own headings: finding someone in detention (ICE locator, 1-888-351-4024 line, lost-in-detention toolkit), court date (EOIR 1-800-898-7180 and online form), finding an immigration attorney (directories, AILA referral line, avoiding notarios), immigration bond, sending commissary money. National, no Arizona section. The page does not say attorneys reviewed it.",
+        "Link only. Footer: \"Copyright © 2026 Freedom for Immigrants. All Rights Reserved.\" No license or reuse statement. Nothing is copied.",
     ),
-    "ice_brochure_en": (
-        "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
-        "ICE: Folleto del Sistema Localizador de Detenidos en Línea (PDF, en inglés, 12/2021)",
-        "ICE: Online Detainee Locator System brochure, English version (PDF, 12/2021)",
-        "The same six passages as the Spanish version, word for word.",
-        US_GOV + "Same note as the Spanish version.",
+    "ffi_recursos": (
+        FFI_ES,
+        "Freedom for Immigrants: «Recursos para personas que enfrentan detención o riesgo de deportación, sus familias y seres queridos, y defensores» (en español)",
+        "Freedom for Immigrants: the same page in Spanish",
+        "GUIDE CARD, link only. The Spanish version of the page above, read in full on 2026-11-27 (tools/captures/research/ffi_recursos.txt). Same sections.",
+        "Link only. Same copyright line as the English page.",
     ),
-    "ice_factsheet": (
-        "https://www.ice.gov/factsheets/locating-individuals-in-detention",
-        "ICE: hoja informativa «Locating Individuals in Detention» (en inglés, actualizada el 16 de mayo de 2025)",
-        "ICE: fact sheet \"Locating Individuals in Detention\" (Updated 05/16/2025; dated August 8, 2023)",
-        "Link only, not quoted. It says use of the ODLS \"requires the individual's full name, alien number (A-number) or date of birth, and country of birth\", which is worded differently from the brochure (A-number and country of birth, or name and country of birth). Both are ICE's own; the page quotes the brochure, which is more specific, and links this fact sheet. The fact sheet lists the brochure in nine languages (Spanish, French, Portuguese, Russian, Somali, Vietnamese, Chinese, Arabic).",
-        US_GOV,
+    "ffi_lost": (
+        "https://www.freedomforimmigrants.org/toolkit-lost-in-detention",
+        "Freedom for Immigrants: «Toolkit: Lost in the U.S. immigration detention system» (en inglés; la página enlaza una versión en español)",
+        "Freedom for Immigrants: \"Toolkit: Lost in the U.S. immigration detention system\" (English; the page links a Spanish version)",
+        "Link only, mentioned on the guide card. Read once (WebFetch). It is for friends, family and advocates looking for someone missing in the system. No date, no Arizona section, says it \"does not account for attorney privileges\" and recommends legal counsel. The Spanish version's address was not opened.",
+        "Link only. \"Copyright © 2026 Freedom for Immigrants. All Rights Reserved.\"",
+    ),
+    "firrp_family_en": (
+        FLORENCE_FAMILY,
+        "Florence Project: «What if I’m Picked up by ICE in Arizona?: Making a Family Plan» (página en inglés)",
+        "Florence Project: \"What if I'm Picked up by ICE in Arizona?: Making a Family Plan\" (English page)",
+        "GUIDE CARD, link only. Read in full (tools/captures/research/firrp_family.txt). Marked \"Guide Updated 2017\". Arizona-specific, written for immigrant parents in Arizona. Says it was \"prepared by a small group of volunteer lawyers, advocates, and family law experts\"; credits include Steptoe & Johnson (sponsor), a managing attorney, the Florence Project's executive director, a family services consultant. It says it is not legal advice. It does NOT say an attorney reviewed the final text. Part II has a section \"I am detained in Florence or Eloy, how can I get released?\" (table of contents of the PDF).",
+        "Link only. The page shows only \"© 2026 Florence Immigrant & Refugee Rights Project\" and a Privacy Policy link; no reuse or license terms. Nothing is copied.",
+    ),
+    "firrp_family_es": (
+        "https://firrp.org/es/resources/prose/parentalrights/",
+        "Florence Project: «¿Y Qué si me Agarra y me Arresta el ICE en Arizona?: Desarrollando un Plan de Familia» (página en español)",
+        "Florence Project: the family plan guide, Spanish page",
+        "GUIDE CARD, link only. Spanish page (tools/captures/research/firrp_es_page.txt). Its own date line is in English: \"Guide Updated 2017\".",
+        "Link only. No reuse terms on the page.",
+    ),
+    "firrp_manual_es": (
+        "https://firrp.org/wp-content/uploads/2024/11/firrp-Spanish-Manual.pdf",
+        "Florence Project: guía completa en español, Partes I y II (PDF, 19 páginas)",
+        "Florence Project: full guide in Spanish, Parts I and II (PDF, 19 pages)",
+        "GUIDE CARD, link only. Downloaded and read (tools/captures/research/firrp_es_manual.txt). File timestamp (HTTP Last-Modified) 2024-11-21; the guide itself is marked 2017.",
+        "Link only. No copyright or reuse statement found in the PDF text.",
+    ),
+    "firrp_manual_en": (
+        "https://firrp.org/wp-content/uploads/2022/09/English-Manual-2017.pdf",
+        "Florence Project: guía completa en inglés, Partes I y II (PDF, 19 páginas, 2017)",
+        "Florence Project: full guide in English, Parts I and II (PDF, 19 pages, 2017)",
+        "GUIDE CARD, link only. Downloaded and read (tools/captures/research/firrp_en_manual.txt). The file name says 2017.",
+        "Link only. No copyright or reuse statement found in the PDF text.",
+    ),
+    "firrp_part3": (
+        "https://firrp.org/wp-content/uploads/2022/09/FUT-Resource-Guide.pdf",
+        "Florence Project: Parte III, recursos y ejemplos de documentos para familias en Arizona (PDF, inglés y español)",
+        "Florence Project: Part III, resources and document samples for families in Arizona (PDF, English and Spanish)",
+        "GUIDE CARD, link only. The address is the one the Florence Project's own page gives. The PDF itself was not opened; HTTP headers show a PDF of 5.5 MB.",
+        "Link only.",
+    ),
+    "wrc_en": (
+        "https://www.womensrefugeecommission.org/research-resources/detained-or-deported-parental-toolkit-english-interactive/",
+        "Women's Refugee Commission: «Detained or Deported: What About My Children?» (página en inglés)",
+        "Women's Refugee Commission: \"Detained or Deported: What About My Children?\" (English page)",
+        "GUIDE CARD, link only. Page read (tools/captures/research/wrc_en_page.txt): \"Published March 31, 2025\", toolkit for detained and deported parents; includes ICE contact information, child welfare agency contacts for all 50 states, how to ask for a family-court lawyer. National with Arizona entries in its state lists; the Spanish credits thank the Florence Project for its Arizona guide.",
+        "Link only. Page footer: \"Copyright © Women's Refugee Commission, Inc. 2026\". The PDF credits page says \"© 2014 Women's Refugee Commission, Inc.\" (revised 2025). No reuse terms found. Nothing is copied.",
+    ),
+    "wrc_pdf_es": (
+        WRC_ES,
+        "Women's Refugee Commission: «Me han detenido o deportado: ¿Qué pasará con mis hijos o hijas?» (PDF en español, 113 páginas, revisado en 2025)",
+        "Women's Refugee Commission: Spanish PDF of the toolkit (113 pages, \"Revisado en 2025\")",
+        "GUIDE CARD, link only. Downloaded and read (tools/captures/research/wrc.txt). Credits (Spanish): written by four named authors with research and editing support from named people \"así como de las firmas legales Spears & Imes, LLP y Steptoe & Johnson, LLP\"; 2025 revision by Diane Eikenberry. Thanks the Florence Project for its Arizona guide. It does NOT say an attorney reviewed the text.",
+        "Link only. \"© 2014 Women's Refugee Commission, Inc. Revisado en 2025\". No reuse terms found.",
+    ),
+    "wrc_pdf_en": (
+        "https://www.womensrefugeecommission.org/wp-content/uploads/2014/05/Parental-Rights-Toolkit-ENGLISH-2025.pdf",
+        "Women's Refugee Commission: PDF en inglés de la misma guía (2025)",
+        "Women's Refugee Commission: English PDF of the same toolkit (2025)",
+        "GUIDE CARD, link only. The address is the one the WRC page gives. Downloaded and read (tools/captures/research/wrc_en.txt); same credits page: \"© 2014 Women’s Refugee Commission\".",
+        "Link only.",
     ),
     "ice_locator": (
         LOCATOR,
         "ICE: Sistema Localizador de Detenidos en Línea (ODLS)",
         "ICE: Online Detainee Locator System (ODLS)",
-        "Link only. The brochure gives www.ice.gov/locator as the address; it forwards to locator.ice.gov/odls. The tool is not opened or used by this page. It answered \"Access Denied\" to our automated browser (tools/captures/ice_locator.txt), so its screens, fields and Spanish labels were not read. Whether it works in a normal phone browser could not be checked.",
+        "Link only. ICE's own brochure gives www.ice.gov/locator as the address; it forwards to locator.ice.gov/odls. The tool is not opened or used by this page. It answered \"Access Denied\" to our automated browser (tools/captures/ice_locator.txt), so its screens, fields and Spanish labels were not read. Whether it works in a normal phone browser could not be checked.",
         "Link only.",
     ),
     "ice_ero": (
@@ -94,7 +153,7 @@ SOURCES = {
         ACIS["es"],
         "EOIR: Información automatizada de casos, ACIS (en español)",
         "EOIR: Automated Case Information, Spanish version",
-        "The welcome paragraph and the \"for convenience only\" paragraph, word for word, in EOIR's own Spanish. The page shows no date. The tool asks for an A-Number and a nationality, then an hCaptcha check (a third-party service, on EOIR's site, not on this page). The Spanish text has wording problems of its own (\"se provee a penas\", \"número de registro de Extranjero\"); it is copied as it stands.",
+        "Link only on this version of the page (the two paragraphs quoted before are no longer on the page). The page shows no date. The tool asks for an A-Number and a nationality, then an hCaptcha check (a third-party service, on EOIR's site, not on this page). The Spanish text has wording problems of its own (\"se provee a penas\", \"número de registro de Extranjero\"); it is copied as it stands.",
         US_GOV + "Same as EOIR status page.",
     ),
     "acis_en": (
@@ -111,72 +170,16 @@ SOURCES = {
         "The Eloy Immigration Court page of the Arizona section (two providers: Florence Immigrant and Refugee Rights Project, and the ABA Commission on Immigration Detention Information Hotline), word for word. The Florence court page of the list is identical. The Phoenix and Tucson court pages list the same two providers but the Florence Project there says \"Children's cases only\"; they are not quoted. EOIR's own page (" + EOIR_LIST_PAGE + ", \"Updated November 18, 2026\") says the list is published quarterly and that EOIR \"does not endorse any of these organizations\".",
         US_GOV + "Same as EOIR status page.",
     ),
-    "aclu_lawsuit": (
-        "https://www.aclu.org/press-releases/immigrants-rights-organizations-file-lawsuit-to-stop-ice-from-hiding-locations-of-detained-people",
-        "ACLU: comunicado sobre una demanda por la ubicación de personas detenidas (28 de octubre de 2026, en inglés)",
-        "ACLU: press release on a lawsuit about the locations of detained people (October 28, 2026)",
-        "Two sentences word for word (what the ODLS has done for 16 years, and what DHS changed in September). They are the organizations' account in a press release about a lawsuit, not a court finding; the page says so. The press release's other sentences (such as its characterisations of the policy, and the statements of the plaintiffs) are not copied. The same lawsuit is described by KJZZ (linked, not copied).",
-        "ACLU Site User Agreement (effective July 31, 2025, tools/captures/aclu_useragreement.txt): text may be copied if not for commercial use, without editorial changes, not misleadingly excerpted, with the notice \"Copyright [year] American Civil Liberties Union. Originally posted by the ACLU at [address]\". Shown on the page. Two sentences were picked from a longer paragraph; we do not think that misleads, and the page says what the sentences are. UNVERIFIED and for a human: confirm.",
-    ),
-    "kjzz": (
-        KJZZ,
-        "KJZZ (Phoenix): nueva demanda alega que ICE esconde a miles de personas bajo su custodia (30 de octubre de 2026, en inglés)",
-        "KJZZ: New lawsuit alleges ICE is hiding thousands of people in its custody (October 30, 2026)",
-        "Link only. It reports that the Florence Project is among the groups suing and that the groups say thousands with final orders of removal stopped appearing in the ODLS in mid-September.",
-        "Link only. No text copied.",
-    ),
-    "zine": (
-        "https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf",
-        "ACLU de Arizona: «Conozca sus derechos con la policía, ICE y la Patrulla Fronteriza» (librito en inglés y español, enero de 2025)",
-        "ACLU of Arizona: \"Know Your Rights with Police, ICE, and Border Patrol\" zine (English and Spanish, January 2025)",
-        "Two passages in English and the same two in the zine's own Spanish (remember your A-number and give it to family; prepare your family, memorize numbers, name a caregiver), and one English passage on the right to hire a lawyer if detained by ICE. The PDF has no printed date; the year comes from the file name (01-2025) and the upload folder (2025/02), and ACLU of Arizona's page for it (acluaz.org/know-your-rights/immigrants-rights, \"Last updated: August 13, 2025\"). The Spanish version of the lawyer passage is not quoted: the PDF text runs into another section.",
-        "ACLU of Arizona User Agreement (effective July 1, 2024, tools/captures/acluaz_useragreement.txt): text may be copied if not for commercial use, without editorial changes, not misleadingly excerpted, with the notice \"Copyright [year] ACLU of Arizona. Originally posted by the ACLU of Arizona at [address]\". Shown on the page. UNVERIFIED and for a human: whether a PDF counts as \"text material\" on the site; the notice names the PDF's address.",
-    ),
-    "acluaz_contact": (
-        "https://www.acluaz.org/contact-us/",
-        "ACLU de Arizona: Contacto (en inglés)",
-        "ACLU of Arizona: Contact Us",
-        "Two paragraphs word for word (it is \"not a general legal service\"; it does not give legal advice about immigration law). The page also says legal assistance requests must go through its form and that it does not review them in person or by phone.",
-        "Same ACLU of Arizona User Agreement as above; the notice is shown.",
-    ),
-    "acluaz_request": (
-        ACLU_REQUEST,
-        "ACLU de Arizona: Cómo pedir asistencia legal (en inglés)",
-        "ACLU of Arizona: Requesting legal assistance",
-        "Link only. The page was not opened.",
-        "Link only.",
-    ),
-    "firrp_family": (
-        FLORENCE_FAMILY,
-        "Florence Project: «What if I’m Picked up by ICE in Arizona?: Making a Family Plan» (en inglés; el sitio ofrece una versión en español)",
-        "Florence Project: \"What if I'm Picked up by ICE in Arizona?: Making a Family Plan\"",
-        "Link only, not quoted. The page (read with a plain HTTP request) says it is written for immigrant parents in Arizona, \"whether you have papers or not\", to help them plan so they do not lose rights over their children if apprehended by ICE. Its terms were not read.",
-        "Link only. The Florence Project's terms were not read, so no text is copied. firrp.org answered ERR_HTTP2_PROTOCOL_ERROR to our headless browser; the page above did load to a plain HTTP request.",
-    ),
-    "firrp_site": (
-        FLORENCE_SITE,
-        "Florence Immigrant and Refugee Rights Project (sitio web)",
-        "Florence Immigrant and Refugee Rights Project (website)",
-        "Link only. The address comes from EOIR's list. The home page itself was not read (our headless browser got an HTTP/2 error).",
-        "Link only.",
-    ),
-    "aclu_wehave": (
-        ACLU_WEHAVE,
-        "ACLU: «We Have Rights», videos sobre qué hacer si ICE arresta a alguien (en inglés; los videos tienen versión en español)",
-        "ACLU: \"We Have Rights\" videos on what to do if ICE arrests someone",
-        "Link only. The page says the videos are voiced in several languages including Spanish, and that one explains \"what you and your loved ones should do if one of you is arrested\". The page text is from the 2017 campaign (it cites 2017 arrest numbers), so it is linked, not quoted.",
-        "Link only.",
-    ),
 }
 
 SPANISH_UI = []  # every Spanish string written for this page, for docs/NEEDS-NATIVE-READ.md
 
 TEXT = {
-    "title": "Mi familiar fue detenido por ICE en Arizona: primeros pasos",
-    "title_en": "A loved one was detained by ICE in Arizona: first steps",
-    "desc": "¿No puedes comunicarte con alguien y ICE puede tenerlo? Cómo buscarlo, revisar su caso y hallar ayuda legal gratis en Arizona. Fuentes oficiales, sin rastreo.",
-    "desc_en": "Can't reach someone and ICE may have them? How to find them, check their court case and find free legal help in Arizona. Official sources, no tracking.",
-    "imgalt": "Ser querido detenido, Arizona: cuatro primeros pasos con fuentes oficiales. A loved one was detained by ICE: four first steps.",
+    "title": "Mi familiar fue detenido por ICE: las mejores guías",
+    "title_en": "A loved one was detained by ICE: the best guides",
+    "desc": "Guías ya hechas por organizaciones para familias de personas detenidas por ICE, en español e inglés, a un toque. Con las herramientas oficiales. Sin rastreo.",
+    "desc_en": "Guides already made by organizations for families of people detained by ICE, in Spanish and English, one tap away. With the official tools. No tracking.",
+    "imgalt": "Ser querido detenido, Arizona: las mejores guías que ya existen, en tu idioma. A loved one was detained by ICE: the best existing guides.",
 }
 SPANISH_UI += [TEXT["title"], TEXT["desc"], TEXT["imgalt"]]
 
@@ -258,6 +261,82 @@ def tel(lang, key, label_es, label_en):
     return '<a class="btn call" href="tel:%s">%s: %s</a>' % (e164, E(lab), shown)
 
 
+# The guides this page boosts. Everything here is a link or a short factual label; no legal wording is written by us.
+# Each tuple: (es, en). Buttons: (source id, label es, label en, class, language of the link or None)
+GUIDES = [
+    {
+        "id": "ffi",
+        "title": ("Recursos para personas que enfrentan detención o riesgo de deportación, sus familias y seres queridos, y defensores",
+                  "Resources for Individuals Facing Detention or Risk of Deportation, their Families and Loved Ones, and Advocates"),
+        "for": ("Para cualquier familia · todo el país", "For any family · nationwide"),
+        "pub": ("Freedom for Immigrants (organización sin fines de lucro)", "Freedom for Immigrants (nonprofit)"),
+        "langs": ("Español e inglés (la página tiene las dos versiones)", "Spanish and English (the page has both versions)"),
+        "date": ("La página no muestra fecha. Leída el 27 de noviembre de 2026.", "The page shows no date. Read on November 27, 2026."),
+        "covers": ("Cómo encontrar a alguien en detención, su fecha en el tribunal de inmigración, cómo encontrar un abogado, fianza y cómo enviar dinero.",
+                   "How to find someone in detention, their immigration court date, how to find a lawyer, bond, and how to send money."),
+        "legal": ("La página no dice que abogados la revisaron.", "The page does not say lawyers reviewed it."),
+        "buttons": [("ffi_recursos", "Abrir la guía en español", "Open the guide in Spanish", "primary", "es"),
+                    ("ffi_resources", "Abrir la guía en inglés", "Open the guide in English", "secondary", "en"),
+                    ("ffi_lost", "Si no aparece: kit «Perdido en detención» (en inglés)", "If they do not appear: \"Lost in detention\" toolkit", "secondary", "en")],
+    },
+    {
+        "id": "firrp",
+        "title": ("¿Y Qué si me Agarra y me Arresta el ICE en Arizona?: Desarrollando un Plan de Familia",
+                  "What if I'm Picked up by ICE in Arizona?: Making a Family Plan"),
+        "for": ("Arizona · para madres y padres", "Arizona · for parents"),
+        "pub": ("Florence Immigrant & Refugee Rights Project, Florence Project (Arizona)", "Florence Immigrant & Refugee Rights Project, the Florence Project (Arizona)"),
+        "langs": ("Español e inglés (guía en PDF y página)", "Spanish and English (PDF guide and page)"),
+        "date": ("Guía actualizada en 2017, según el Florence Project. Las reglas pueden haber cambiado.", "Guide updated in 2017, according to the Florence Project. Rules may have changed."),
+        "covers": ("Quién cuida a los niños, poder notarial, tutela temporal, documentos, qué hacer si ICE detiene a un padre o madre, cómo salir de Florence o Eloy, la corte de inmigración y el sistema de bienestar de menores (CPS).",
+                   "Who cares for the children, power of attorney, temporary guardianship, documents, what to do if ICE picks up a parent, how to get released from Florence or Eloy, immigration court and the child welfare system (CPS)."),
+        "legal": ("El Florence Project dice que la prepararon voluntarios: abogados, defensores y expertos en derecho de familia. No dice que un abogado revisó el texto final.",
+                  "The Florence Project says it was prepared by volunteers: lawyers, advocates and family law experts. It does not say a lawyer reviewed the final text."),
+        "buttons": [("firrp_manual_es", "Abrir la guía completa (PDF, español)", "Open the full guide (PDF, Spanish)", "primary", "es"),
+                    ("firrp_manual_en", "Abrir la guía completa (PDF, inglés)", "Open the full guide (PDF, English)", "secondary", "en"),
+                    ("firrp_family_es", "Página de la guía en español", "Guide page in Spanish", "secondary", "es"),
+                    ("firrp_family_en", "Página de la guía en inglés", "Guide page in English", "secondary", "en"),
+                    ("firrp_part3", "Parte III: recursos y documentos de ejemplo (PDF)", "Part III: resources and document samples (PDF)", "secondary", None)],
+    },
+    {
+        "id": "wrc",
+        "title": ("Me han detenido o deportado: ¿Qué pasará con mis hijos o hijas?", "Detained or Deported: What About My Children?"),
+        "for": ("Para madres y padres · todo el país, con listas por estado", "For parents · nationwide, with state-by-state lists"),
+        "pub": ("Women's Refugee Commission (organización sin fines de lucro, Nueva York)", "Women's Refugee Commission (nonprofit, New York)"),
+        "langs": ("Español e inglés (PDF de 113 páginas)", "Spanish and English (113-page PDF)"),
+        "date": ("Publicada el 31 de marzo de 2025. El PDF dice «Revisado en 2025».", "Published March 31, 2025. The PDF says \"Revised 2025\"."),
+        "covers": ("Cómo proteger sus derechos como madre o padre, quién cuida a los niños, el sistema de bienestar de menores, la corte de familia, cómo conseguir abogado y cómo reunirse con sus hijos. Incluye contactos de ICE y de las agencias de cada estado.",
+                   "How to protect your rights as a parent, who cares for the children, the child welfare system, family court, how to get a lawyer and how to reunite with your children. Includes ICE contacts and each state's agencies."),
+        "legal": ("Los créditos dan las gracias a los bufetes Spears & Imes y Steptoe & Johnson por apoyar la investigación y el borrador. No dicen que abogados revisaron el texto final.",
+                  "The credits thank the law firms Spears & Imes and Steptoe & Johnson for supporting the research and drafting. They do not say lawyers reviewed the final text."),
+        "buttons": [("wrc_pdf_es", "Abrir la guía (PDF, español)", "Open the guide (PDF, Spanish)", "primary", "es"),
+                    ("wrc_pdf_en", "Abrir la guía (PDF, inglés)", "Open the guide (PDF, English)", "secondary", "en"),
+                    ("wrc_en", "Página de la guía (en inglés)", "Guide page (English)", "secondary", "en")],
+    },
+]
+
+
+def guide_card(lang, g):
+    es = lang == "es"
+    i = 0 if es else 1
+    labels = (("Publica", "Idiomas", "Fecha", "Qué cubre", "Abogados"), ("Published by", "Languages", "Date", "What it covers", "Lawyers"))[i]
+    if es:
+        SPANISH_UI.extend(list(labels) + [g["title"][0], g["for"][0], g["pub"][0], g["langs"][0], g["date"][0], g["covers"][0], g["legal"][0]])
+    rows = "".join('<div><dt>%s</dt><dd>%s</dd></div>' % (E(l), E(v[i])) for l, v in zip(labels, [g["pub"], g["langs"], g["date"], g["covers"], g["legal"]]))
+    # buttons: the one in the reader's language comes first
+    btns = []
+    for sid, bes, ben, cls, bl in g["buttons"]:
+        url = SOURCES[sid][0]
+        label = bes if es else ben
+        if es:
+            SPANISH_UI.append(bes)
+        la = "" if bl in (None, lang) else ' lang="%s"' % bl
+        btns.append((0 if bl == lang else 1, '<a class="btn %s" href="%s" rel="noopener noreferrer"%s>%s</a>' % (
+            "primary" if bl == lang and cls == "primary" else "secondary", E(url, quote=True), la, E(label))))
+    first = sorted(btns, key=lambda x: x[0])
+    return ('<article class="guide" aria-labelledby="%s-g-%s"><p class="gfor">%s</p><h3 id="%s-g-%s"%s>%s</h3><dl class="meta">%s</dl><div class="calls">%s</div></article>' % (
+        lang, g["id"], E(g["for"][i]), lang, g["id"], "" if es else "", E(g["title"][i]), rows, "".join(b for _o, b in first)))
+
+
 def content(lang):
     es = lang == "es"
     p = lang
@@ -274,160 +353,81 @@ def content(lang):
 
     A('<section class="notice" aria-labelledby="%s-imp-h"><h2 id="%s-imp-h">%s</h2><p>%s</p></section>' % (
         p, p, T("Importante", "Important"),
-        T("Esta página da <strong>información general</strong> y enlaces a fuentes oficiales. <strong>No es consejo legal</strong> y no puede decirte qué pasará en el caso de tu familiar. "
-          "No guarda ni recoge ningún dato tuyo. Los enlaces te llevan a otros sitios.",
-          "This page gives <strong>general information</strong> and links to official sources. <strong>It is not legal advice</strong> and it cannot tell you what will happen in your family member's case. "
-          "It does not save or collect any information about you. Links take you to other sites.")))
+        T("Esta página no escribe consejos: <strong>te lleva a guías que ya hicieron organizaciones</strong>. <strong>No es consejo legal.</strong> No guarda ni recoge ningún dato tuyo. Los enlaces te llevan a otros sitios.",
+          "This page does not write advice: <strong>it takes you to guides that organizations already made</strong>. <strong>It is not legal advice.</strong> It does not save or collect any information about you. Links take you to other sites.")))
 
-    # jump menu: the four steps
-    jump = [("s1", T("Paso 1. Encuéntralo", "Step 1. Find them")), ("s2", T("Paso 2. Su caso en el tribunal", "Step 2. Their court case")),
-            ("s3", T("Paso 3. Ayuda legal gratis en Arizona", "Step 3. Free legal help in Arizona")), ("s4", T("Paso 4. Tu familia", "Step 4. Your family"))]
-    A('<nav class="jump no-print" aria-labelledby="%s-jump-h"><h2 id="%s-jump-h">%s</h2><ul>%s</ul></nav>' % (
-        p, p, T("Cuatro pasos", "Four steps"),
-        "".join('<li><a class="btn secondary" href="#%s-%s">%s</a></li>' % (p, i, t) for i, t in jump)))
+    # 1. the guides
+    body = '<p>%s</p>' % T("No escribimos una guía nueva. Estas ya existen. Ábrelas en tu idioma.", "We did not write a new guide. These already exist. Open them in your language.")
+    body += "".join(guide_card(lang, g) for g in GUIDES)
+    body += '<p class="hint">%s</p>' % T("Dos de las tres hablan de los niños y del papá o la mamá detenidos. Ninguna dice que la revisó un abogado, y ninguna da permiso de copiar su texto: por eso esta página solo las enlaza.",
+                                        "Two of the three are about the children and the detained parent. None says a lawyer reviewed it, and none gives permission to copy its text, so this page only links them.")
+    body += sources(lang, ["ffi_resources", "ffi_recursos", "ffi_lost", "firrp_family_" + lang, "firrp_manual_" + lang, "firrp_part3", "wrc_en", "wrc_pdf_" + lang])
+    sec("guides", T("Las mejores guías que ya existen", "The best guides that already exist"), body)
 
-    # what you need + card (printable)
-    need = [T("Nombre completo, tal como aparece en sus documentos", "Full name, as it appears on their papers"),
-            T("Número A (A-Number), si lo tienes", "A-Number, if you have it"),
-            T("País de nacimiento", "Country of birth"),
-            T("Fecha de nacimiento, si la sabes", "Date of birth, if you know it")]
-    fields = [T("Nombre completo", "Full name"), T("Número A (A-Number)", "A-Number"), T("País de nacimiento", "Country of birth"),
-              T("Fecha de nacimiento", "Date of birth"), T("Centro donde está (dice el localizador)", "Facility where they are (the locator says)"),
-              T("Teléfono del centro", "Facility phone"), T("Abogado o grupo de ayuda legal", "Lawyer or legal aid group"),
-              T("Quién cuida a los niños", "Who is caring for the children")]
-    card = '<p>%s</p><ul class="check">%s</ul><p class="hint">%s</p>' % (
-        T("Reúne esto antes de buscar. Lo que ICE pide está citado en el paso 1.", "Gather this before you search. What ICE asks for is quoted in step 1."),
-        "".join("<li>%s</li>" % x for x in need),
-        T("Para apuntar en papel, imprime la tarjeta. Esta página no guarda nada de lo que escribes en papel.", "To write on paper, print the card. This page does not keep anything you write on paper."))
-    card += '<h3>%s</h3><ul class="fields">%s</ul>' % (T("Anota aquí", "Write here"), "".join('<li><span class="fl">%s</span><span class="line" aria-hidden="true"></span></li>' % x for x in fields))
-    phones = [
-        (T("ICE, oficina de Phoenix", "ICE, Phoenix field office"), "ero"),
-        (T("Tribunales de inmigración (EOIR), caso", "Immigration courts (EOIR), case line"), "eoir"),
-        (T("Florence Project, ayuda legal", "Florence Project, legal help"), "firrp"),
-        (T("Centro Eloy: información", "Eloy Detention Center: information"), "eloy_info"),
-        (T("Centro Eloy: dejar un mensaje urgente", "Eloy Detention Center: urgent message"), "eloy_msg"),
-        (T("Centro Florence: información", "Florence Service Processing Center: information"), "flor_info"),
-        (T("Centro Florence: dejar un mensaje urgente", "Florence Service Processing Center: urgent message"), "flor_msg"),
-    ]
-    card += '<h3>%s</h3><ul class="phones">%s<li>%s <strong>www.ice.gov/locator</strong></li></ul><p class="hint">%s</p>' % (
-        T("Números de esta página", "Numbers on this page"),
-        "".join('<li>%s: <a href="tel:%s"><strong>%s</strong></a></li>' % (lab, PHONES[k][1], PHONES[k][0]) for lab, k in phones),
-        T("Localizador de ICE:", "ICE locator:"),
-        T("Cada número viene de una cita de esta página. Confirma con la fuente antes de llamar.", "Each number comes from a quote on this page. Confirm with the source before you call."))
-    card += '<div class="calls no-print"><button type="button" class="btn primary big js-print">%s</button></div>' % T("Imprimir la tarjeta", "Print the card")
-    sec("card", T("Antes de empezar", "Before you start"), card, " card")
-
-    # step 1
-    s1 = '<p>%s</p><div class="calls">%s</div>' % (
-        T("Abre el localizador de ICE. Esto es lo que dice ICE sobre cómo usarlo.", "Open ICE's locator. This is what ICE says about using it."),
-        btn(LOCATOR, T("Abrir el localizador de ICE (ice.gov/locator)", "Open the ICE locator (ice.gov/locator)"), "primary"))
-    s1 += quote(lang, "odls_what_" + lang) + quote(lang, "odls_search_" + lang) + quote(lang, "odls_exact_" + lang)
-    s1 += '<h3>%s</h3>' % T("Si no aparece", "If they do not appear")
-    s1 += '<p>%s</p>' % T("ICE dice que no todos aparecen y qué hacer.", "ICE says not everyone appears, and what to do.")
-    s1 += quote(lang, "odls_notin_" + lang) + quote(lang, "odls_notfound_" + lang)
-    s1 += '<p>%s</p>' % T("Esta es la oficina de ICE para Arizona.", "This is ICE's office for Arizona.")
-    s1 += quote(lang, "ero_phoenix_en")
-    s1 += '<div class="calls">%s%s</div>' % (tel(lang, "ero", "Llamar a ICE en Phoenix", "Call ICE in Phoenix"),
-                                            btn(ICE_FIELD, T("Todas las oficinas de ICE (en inglés)", "All ICE field offices"), "secondary"))
-    s1 += '<p>%s</p>' % T("La ACLU informa de un cambio reciente (28 de octubre de 2026). Es lo que dicen las organizaciones en una demanda, no una decisión de un tribunal.",
-                          "The ACLU reports a recent change (October 28, 2026). It is what the organizations say in a lawsuit, not a court decision.")
-    s1 += quote(lang, "aclu_lawsuit_en", T("Esto es un comunicado de prensa sobre una demanda.", "This is a press release about a lawsuit."))
-    s1 += '<div class="calls">%s</div>' % btn(KJZZ, T("KJZZ: reportaje sobre la demanda (en inglés)", "KJZZ: news report on the lawsuit"), "secondary")
-    s1 += '<h3>%s</h3><p>%s</p>' % (T("Si lo encontraste", "If you found them"),
-                                    T("ICE dice qué hacer. Estos son los centros de Arizona que leímos (en inglés).", "ICE says what to do. These are the Arizona facilities we read."))
-    s1 += quote(lang, "odls_found_" + lang) + quote(lang, "eloy_en") + quote(lang, "florence_en")
-    s1 += '<div class="calls">%s%s%s%s</div>' % (
-        tel(lang, "eloy_info", "Eloy: información", "Eloy: information"), tel(lang, "eloy_msg", "Eloy: mensaje urgente", "Eloy: urgent message"),
-        tel(lang, "flor_info", "Florence: información", "Florence: information"), tel(lang, "flor_msg", "Florence: mensaje urgente", "Florence: urgent message"))
-    s1 += '<div class="calls">%s</div>' % btn(SOURCES["ice_factsheet"][0], T("ICE: hoja informativa sobre el localizador (en inglés)", "ICE: fact sheet on the locator"), "secondary")
-    s1 += sources(lang, ["ice_brochure_" + lang, "ice_locator", "ice_factsheet", "ice_ero", "ice_eloy", "ice_florence", "aclu_lawsuit", "kjzz"])
-    sec("s1", T("Paso 1. Encuéntralo", "Step 1. Find them"), s1)
-
-    # step 2
-    s2 = '<p>%s</p><div class="calls">%s%s</div>' % (
-        T("Si ya hay un caso en el tribunal de inmigración, puedes ver datos básicos en línea o por teléfono. El sitio pide el número A y la nacionalidad.",
-          "If there is already a case in immigration court, you can see basic information online or by phone. The site asks for the A-Number and the nationality."),
+    # 2. official tools
+    t = '<p>%s</p><div class="calls">%s%s%s</div>' % (
+        T("Herramientas del gobierno de EE. UU. para buscar a la persona y ver su caso en el tribunal de inmigración.",
+          "U.S. government tools to find the person and see their immigration court case."),
+        btn(LOCATOR, T("Abrir el localizador de ICE (ice.gov/locator)", "Open the ICE locator (ice.gov/locator)"), "primary"),
         btn(ACIS[lang], T("Abrir ACIS en español (tribunales de inmigración)", "Open ACIS in English (immigration courts)"), "primary"),
-        tel(lang, "eoir", "Llamar al sistema de casos (EOIR)", "Call the case line (EOIR)"))
-    s2 += quote(lang, "acis_intro_" + lang) + quote(lang, "acis_official_" + lang) + quote(lang, "eoir_status_en")
-    s2 += '<p class="hint">%s</p>' % T("ACIS usa una verificación de hCaptcha, un servicio de otra empresa, en el sitio de EOIR. Esta página no la usa.",
-                                         "ACIS uses an hCaptcha check, a third-party service, on EOIR's site. This page does not use it.")
-    s2 += sources(lang, ["acis_" + lang, "eoir_status"])
-    sec("s2", T("Paso 2. Su caso en el tribunal", "Step 2. Their court case"), s2)
+        btn(EOIR_STATUS, T("EOIR: cómo ver el estado del caso (en inglés)", "EOIR: how to check case status"), "secondary"))
+    t += sources(lang, ["ice_locator", "acis_" + lang, "eoir_status"])
+    sec("tools", T("Herramientas oficiales", "Official tools"), t)
 
-    # step 3
-    s3 = '<p>%s</p>' % T("Esta es la lista de ayuda legal gratuita que publica el Departamento de Justicia para los tribunales de Eloy y Florence. Es la misma en las dos páginas.",
-                          "This is the free legal help list the Department of Justice publishes for the Eloy and Florence courts. It is the same on both pages.")
-    s3 += quote(lang, "eoir_list_az_en")
-    s3 += '<p class="hint">%s</p>' % T("En la misma lista, las páginas de Phoenix y Tucson muestran al Florence Project solo para casos de niños. Abre la lista completa para ver cada tribunal.",
-                                        "In the same list, the Phoenix and Tucson pages show the Florence Project for children's cases only. Open the full list to see each court.")
-    s3 += '<div class="calls">%s%s%s</div>' % (
-        tel(lang, "firrp", "Llamar al Florence Project", "Call the Florence Project"),
-        btn(EOIR_LIST_FILE, T("Lista completa de EOIR, todos los tribunales (PDF, en inglés)", "Full EOIR list, all courts (PDF)"), "primary"),
-        btn(FLORENCE_SITE, T("Sitio del Florence Project", "Florence Project website"), "secondary"))
-    s3 += '<h3>%s</h3><p>%s</p>' % (T("La ACLU de Arizona", "The ACLU of Arizona"), T("La ACLU de Arizona dice qué sí y qué no hace (en inglés).", "The ACLU of Arizona says what it does and does not do."))
-    s3 += quote(lang, "acluaz_limits_en") + quote(lang, "zine_lawyer_en")
-    s3 += '<div class="calls">%s</div>' % btn(ACLU_REQUEST, T("ACLU de Arizona: pedir asistencia legal (en inglés)", "ACLU of Arizona: request legal assistance"), "secondary")
-    s3 += sources(lang, ["eoir_list", "firrp_site", "acluaz_contact", "acluaz_request", "zine"])
-    sec("s3", T("Paso 3. Ayuda legal gratis en Arizona", "Step 3. Free legal help in Arizona"), s3)
-
-    # step 4
-    s4 = '<p>%s</p>' % T("Esto dice la ACLU de Arizona sobre el número A y un plan para la familia.", "This is what the ACLU of Arizona says about the A-Number and a family plan.")
-    s4 += quote(lang, "zine_family_" + lang)
-    s4 += '<div class="calls">%s%s</div>' % (
-        btn(FLORENCE_FAMILY, T("Florence Project: plan familiar si ICE detiene a un padre o madre (en inglés)", "Florence Project: making a family plan if ICE picks up a parent"), "primary"),
-        btn(ACLU_WEHAVE, T("ACLU: videos «We Have Rights» (hay versión en español)", "ACLU: \"We Have Rights\" videos"), "secondary"))
-    s4 += '<p class="hint">%s</p>' % T("No encontramos una fuente oficial con permiso de copia sobre dinero, cuentas o facturas, así que esta página no dice nada sobre eso. Pregunta en la ayuda legal del paso 3.",
-                                        "We did not find an official source we may copy on money, bank accounts or bills, so this page says nothing about them. Ask the legal help in step 3.")
-    s4 += sources(lang, ["zine", "firrp_family", "aclu_wehave"])
-    sec("s4", T("Paso 4. Tu familia", "Step 4. Your family"), s4)
+    # 3. phone numbers, each copied from a quote
+    ph = '<p>%s</p><div class="calls">%s%s%s%s%s%s%s</div>' % (
+        T("Cada número viene de una página oficial. Abajo está el texto de donde salen.", "Each number comes from an official page. The text it comes from is below."),
+        tel(lang, "ero", "ICE, oficina de Phoenix", "ICE, Phoenix field office"),
+        tel(lang, "eloy_info", "Eloy: información", "Eloy: information"), tel(lang, "eloy_msg", "Eloy: mensaje urgente", "Eloy: urgent message"),
+        tel(lang, "flor_info", "Florence: información", "Florence: information"), tel(lang, "flor_msg", "Florence: mensaje urgente", "Florence: urgent message"),
+        tel(lang, "eoir", "Tribunales de inmigración, línea de casos (EOIR)", "Immigration courts, case line (EOIR)"),
+        tel(lang, "firrp", "Florence Project, ayuda legal", "Florence Project, legal help"))
+    ph += '<details class="srcq"><summary>%s</summary>' % T("Ver el texto oficial de donde salen los números (en inglés)", "See the official text the numbers come from")
+    ph += quote(lang, "ero_phoenix_en") + quote(lang, "eloy_en") + quote(lang, "florence_en") + quote(lang, "eoir_status_en") + quote(lang, "eoir_list_az_en")
+    ph += '</details>'
+    ph += '<div class="calls">%s</div>' % btn(EOIR_LIST_FILE, T("Lista completa de ayuda legal gratis de EOIR (PDF, en inglés)", "Full EOIR list of free legal help (PDF)"), "secondary")
+    ph += sources(lang, ["ice_ero", "ice_eloy", "ice_florence", "eoir_status", "eoir_list"])
+    sec("phones", T("Teléfonos oficiales de Arizona", "Official Arizona phone numbers"), ph)
 
     # about
     li = T([
-        "<strong>No es consejo legal.</strong> Es una página de enlaces y de citas copiadas de fuentes oficiales y de la ACLU. No dice qué pasará en el caso de tu familiar. Habla con un abogado o con una organización de ayuda legal.",
+        "<strong>No es consejo legal.</strong> Es una página de enlaces. No dice qué pasará en el caso de tu familiar. Habla con un abogado o con una organización de ayuda legal.",
         "<strong>No recogemos datos.</strong> Esta página no tiene analíticas, anuncios, cookies, formularios ni cuentas, y no guarda nada. No usa ningún servicio de otra empresa.",
-        "<strong>Los enlaces salen de este sitio.</strong> Los otros sitios tienen sus propias reglas de privacidad. Esta página no abre ni llena ningún formulario por ti, y no consulta ningún localizador por ti.",
-        "Cada enlace se revisó el <time datetime=\"%s\">%s</time>. Las citas son del gobierno de EE. UU. (de dominio público) y de la ACLU y la ACLU de Arizona; se copian <strong>palabra por palabra y sin cambios</strong>, con el crédito que cada fuente pide. Los títulos, botones y avisos fuera de un recuadro de cita son de esta página. Los números de teléfono salen de las citas." % (CHECKED, CHECKED_TXT["es"]),
-        "El localizador de ICE no se pudo abrir con nuestra herramienta (dio «acceso denegado»), así que no leímos sus pantallas. Las citas son del folleto de ICE de diciembre de 2021 y de páginas de ICE y EOIR actualizadas en 2025 y 2026. Las reglas y los teléfonos pueden cambiar.",
-        "Esta página no está afiliada a ninguna de las organizaciones nombradas ni al gobierno.",
-        "En un teléfono o computadora compartidos, el historial del navegador puede mostrar que visitaste esta página. Si es un riesgo, usa una ventana privada.",
-        "Es gratis y siempre lo será.",
+        "<strong>Los enlaces salen de este sitio.</strong> Los otros sitios tienen sus propias reglas de privacidad. Esta página no abre ni llena ningún formulario por ti.",
+        "Cada enlace se revisó el <time datetime=\"%s\">%s</time>. Las guías se enlazan, no se copian. Los textos en recuadro son del gobierno de EE. UU. (de dominio público), copiados <strong>palabra por palabra y sin cambios</strong>, con su crédito. Los títulos, botones y avisos fuera de un recuadro son de esta página." % (CHECKED, CHECKED_TXT["es"]),
+        "El localizador de ICE no se pudo abrir con nuestra herramienta (dio «acceso denegado»), así que no leímos sus pantallas. Las reglas y los teléfonos pueden cambiar. Esta página no está afiliada a ninguna de las organizaciones nombradas ni al gobierno.",
+        "En un teléfono o computadora compartidos, el historial del navegador puede mostrar que visitaste esta página. Si es un riesgo, usa una ventana privada. Es gratis y siempre lo será.",
     ], [
-        "<strong>This is not legal advice.</strong> It is a page of links and of quotes copied from official sources and the ACLU. It does not say what will happen in your family member's case. Talk to a lawyer or a legal aid organization.",
+        "<strong>This is not legal advice.</strong> It is a page of links. It does not say what will happen in your family member's case. Talk to a lawyer or a legal aid organization.",
         "<strong>We collect no data.</strong> This page has no analytics, ads, cookies, forms or accounts, and it saves nothing. It uses no third-party service.",
-        "<strong>Links leave this site.</strong> Other sites have their own privacy rules. This page does not open or fill in any form for you, and does not query any locator for you.",
-        "Every link was checked on <time datetime=\"%s\">%s</time>. The quotes are from the U.S. government (public domain) and from the ACLU and the ACLU of Arizona; they are copied <strong>word for word and unchanged</strong>, with the credit each source asks for. Headings, buttons and notices outside a quote box are this page's own. Phone numbers come from the quotes." % (CHECKED, CHECKED_TXT["en"]),
-        "ICE's locator could not be opened with our tool (it answered \"access denied\"), so we did not read its screens. The quotes are from ICE's December 2021 brochure and from ICE and EOIR pages updated in 2025 and 2026. Rules and phone numbers can change.",
-        "This page is not affiliated with any of the organizations named or with the government.",
-        "On a shared phone or computer, the browser history can show that you visited this page. If that is a risk, use a private window.",
-        "It is free and always will be.",
+        "<strong>Links leave this site.</strong> Other sites have their own privacy rules. This page does not open or fill in any form for you.",
+        "Every link was checked on <time datetime=\"%s\">%s</time>. The guides are linked, not copied. The quote boxes are U.S. government text (public domain), copied <strong>word for word and unchanged</strong>, with credit. Headings, buttons and notices outside a quote box are this page's own." % (CHECKED, CHECKED_TXT["en"]),
+        "ICE's locator could not be opened with our tool (it answered \"access denied\"), so we did not read its screens. Rules and phone numbers can change. This page is not affiliated with any of the organizations named or with the government.",
+        "On a shared phone or computer, the browser history can show that you visited this page. If that is a risk, use a private window. It is free and always will be.",
     ])
-    sec("about", T("Sobre esta página", "About this page"),
-        '<ul class="list">%s</ul><div class="calls no-print"><button type="button" class="btn primary big js-print">%s</button></div>' % (
-            "".join("<li>%s</li>" % x for x in li), T("Imprimir la tarjeta", "Print the card")))
+    sec("about", T("Sobre esta página", "About this page"), '<ul class="list">%s</ul>' % "".join("<li>%s</li>" % x for x in li))
     return "\n".join(h)
 
 
 def jsonld_graph():
-    steps = [("s1", "Find them", "Look them up in the ICE Online Detainee Locator System with the A-Number and country of birth, or name and country of birth."),
-             ("s2", "Check their court case", "Look up the case in EOIR's Automated Case Information system, online or by phone."),
-             ("s3", "Get free legal help in Arizona", "Use the EOIR list of free legal service providers for Arizona, the Florence Project and the ACLU of Arizona."),
-             ("s4", "Look after your family", "Read the ACLU of Arizona's family plan passage and the Florence Project's family plan guide.")]
+    guides = [("Freedom for Immigrants: Resources for people facing detention, their families and loved ones", SOURCES["ffi_resources"][0]),
+              ("Florence Project: What if I'm Picked up by ICE in Arizona? Making a Family Plan", SOURCES["firrp_family_en"][0]),
+              ("Women's Refugee Commission: Detained or Deported: What About My Children?", SOURCES["wrc_en"][0])]
     return {
         "@context": "https://schema.org",
         "@graph": [
             {"@type": "Organization", "@id": SITE_URL + "#org", "name": NAME, "url": SITE_URL, "logo": SITE_URL + "apple-touch-icon.png",
-             "description": "Free, ad-free, zero-tracking page in Spanish and English that quotes official U.S. government and ACLU sources on finding a person detained by ICE in Arizona, checking their court case and finding free legal help."},
+             "description": "Free, ad-free, zero-tracking page in Spanish and English that links the best existing guides for families of people detained by ICE, and the official U.S. government tools and phone numbers for Arizona."},
             {"@type": "WebSite", "@id": SITE_URL + "#website", "url": SITE_URL, "name": NAME, "description": TEXT["desc"],
              "inLanguage": ["es", "en"], "publisher": {"@id": SITE_URL + "#org"}},
             {"@type": "WebPage", "@id": SITE_URL + "#webpage", "url": SITE_URL, "name": TEXT["title"], "description": TEXT["desc"],
              "inLanguage": ["es", "en"], "isPartOf": {"@id": SITE_URL + "#website"}, "publisher": {"@id": SITE_URL + "#org"},
              "dateModified": CHECKED,
              "primaryImageOfPage": {"@type": "ImageObject", "url": SITE_URL + "og-image.png", "width": 1200, "height": 630},
-             "about": {"@type": "Thing", "name": "First steps when a family member is detained by ICE in Arizona"}},
-            {"@type": "HowTo", "@id": SITE_URL + "#howto", "name": TEXT["title_en"], "inLanguage": ["es", "en"],
-             "description": "Four first steps, each with the official sources quoted word for word on the page.",
-             "step": [{"@type": "HowToStep", "position": i, "name": n, "text": t, "url": SITE_URL + "#es-" + k} for i, (k, n, t) in enumerate(steps, 1)]},
+             "about": {"@type": "Thing", "name": "Guides for families when a loved one is detained by ICE"}},
+            {"@type": "ItemList", "@id": SITE_URL + "#guides", "name": "Guides for families of people detained by ICE", "inLanguage": ["es", "en"],
+             "numberOfItems": len(guides),
+             "itemListElement": [{"@type": "ListItem", "position": i, "name": n, "url": u} for i, (n, u) in enumerate(guides, 1)]},
         ],
     }
 
@@ -437,9 +437,9 @@ def page():
                "que nosotros no podemos ver ni controlar. Nosotros no agregamos nada.")
     foot_en = ("This site has no analytics and saves nothing. It is hosted on GitHub Pages, which may keep standard visit logs "
                "that we cannot see or control. We add nothing.")
-    lead_es = "¿No puedes comunicarte con alguien y ICE puede tenerlo? Cuatro pasos, con las palabras de las fuentes oficiales."
-    lead_en = "Can't reach someone and ICE may have them? Four steps, in the words of the official sources."
-    SPANISH_UI.extend([foot_es, "Ir al contenido", "Ser querido detenido", "Primeros pasos · Arizona", lead_es])
+    lead_es = "Las mejores guías que ya existen, en tu idioma, a un toque."
+    lead_en = "The best guides that already exist, in your language, one tap away."
+    SPANISH_UI.extend([foot_es, "Ir al contenido", "Ser querido detenido", "Guías · Arizona", lead_es])
     jsonld = json.dumps(jsonld_graph(), ensure_ascii=False, indent=1).replace("</", "<\\/")
     es_html, en_html = content("es"), content("en")
     return """<!DOCTYPE html>
@@ -487,8 +487,8 @@ def page():
 <a class="skip en" href="#main" lang="en">Skip to content</a>
 <header class="top">
   <div class="brand">
-    <h1 class="es">Ser querido detenido <span class="where">Primeros pasos · Arizona</span></h1>
-    <h1 class="en" lang="en">A loved one was detained <span class="where">First steps · Arizona</span></h1>
+    <h1 class="es">Ser querido detenido <span class="where">Guías · Arizona</span></h1>
+    <h1 class="en" lang="en">A loved one was detained <span class="where">Guides · Arizona</span></h1>
   </div>
   <div class="langs no-print" role="group" aria-label="Idioma / Language">
     <button type="button" id="lang-es" data-lang="es" lang="es" aria-label="ES, Español" aria-pressed="true">ES</button>
@@ -523,28 +523,27 @@ def sources_md():
     out = ["# Sources", "",
            "Every external fact and quote on the site, with the page it was read on and the terms that allow (or do not allow) using it.",
            "All pages were read on %s. This file is generated by `tools/build.py`; edit the lists there." % CHECKED, "",
-           "Rule: no legal wording on the page is written by us. It is either quoted word for word (`tools/quotes.json`, proven by `tools/verify_quotes.py` against `tools/captures/`) or it is a link. Phone numbers in buttons and on the card are copied from quotes (checked by `tools/build.py`).", "",
+           "Rule: no legal wording on the page is written by us. The page boosts existing guides by linking them (no guide text is copied); the only quoted text is ICE and EOIR text for the phone numbers (`tools/quotes.json`, proven by `tools/verify_quotes.py` against `tools/captures/`). Phone numbers in buttons are copied from quotes (checked by `tools/build.py`).", "",
            "## Source pages", "", "| # | Source | URL | What the page uses | Terms |", "|---|---|---|---|---|"]
     for n, (k, (url, _es, en, facts, terms)) in enumerate(SOURCES.items(), 1):
         out.append("| %d | %s | %s | %s | %s |" % (n, en, url, facts.replace("|", "/"), terms.replace("|", "/")))
     out += ["", "## Quotes (%d records)" % len(QUOTES), "", "| Key | Language | Source | Document date |", "|---|---|---|---|"]
     for k, q in QUOTES.items():
         out.append("| %s | %s | %s | %s |" % (k, q["lang"], q["title"].replace("|", "/"), q["doc_date"]))
-    out += ["", "## Looked for and left out", "",
+    out += ["", "## Looked for and left out (this version of the page)", "",
+            "Full research with every candidate, terms and dates: the vault note `projects/public-goods/detained-guides-2026-11-27.md` (not in this repository).",
             "- ICE Online Detainee Locator System itself: not readable by our tool (\"Access Denied\"). Its fields and its Spanish screens were not checked. A human should open it on a phone.",
-            "- ICE's Spanish page for the fact sheet (`/es/hojas-de-datos/odls`) returned \"Page Not Found\"; the Spanish text comes from ICE's Spanish brochure instead.",
-            "- EOIR Spanish page for case status (`/eoir/check-case-status-espanol`) returned \"Page not found\". The English page is quoted (labelled as English in the Spanish view); ACIS has its own Spanish text, which is quoted.",
-            "- ICE detention facility page for Central Arizona Correctional Center: \"Page Not Found\". Other Arizona facilities were not looked up; the locator gives the facility's contact information (see the quoted brochure).",
-            "- Bond: ACIS says to contact the local court for bond hearing information (quoted). No bond text is copied or written by us.",
-            "- Money, bank accounts, bills, children's school or custody, and notarized caregiver letters: no source found that we may copy, other than the ACLU of Arizona and Florence Project passages used or linked. The Florence Project family plan page is linked only (its terms were not read).",
-            "- ACLU national \"We Have Rights\" page: linked only (2017 campaign text).",
-            "- ACLU of Arizona's full \"Know Your Rights\" web page (acluaz.org/ikyr): its sections are collapsed and their text was not in the saved page, so the PDF zine was quoted.",
-            "- AZ courts guide for parents in ICE custody (azcourts.gov PDF): not used; it is for Arizona courts and child-welfare staff, and its terms were not read.",
-            "- Florence Project pages: only links. firrp.org answered ERR_HTTP2_PROTOCOL_ERROR to our headless browser.",
+            "- Informed Immigrant (FWD.us) \"Help for People in Detention or Facing Deportation\": English page read, no date, no Arizona content, no attorney-review claim; its Spanish page answered HTTP 500 and could not be read. Not chosen.",
+            "- DetentionHelp.org (ASAP, Human Rights First, National Immigration Project): a tool to prepare a federal release petition, EN/ES/ZH. Not a guide, and the detained person must file; not chosen, mentioned in the PR.",
+            "- ABA Commission on Immigration \"Guide for Family and Friends of Individuals in ICE Detention\": americanbar.org blocks our tools (Cloudflare 403), the guide could not be read. Not chosen.",
+            "- Immigrant Defense Project, CLINIC, NIJC: blocked (Cloudflare / HTTP/2 errors) or not a family guide; not read.",
+            "- ILRC Step-by-Step Family Preparedness Plan (2026): read; California-specific forms and a plan to make before detention. Not chosen.",
+            "- NYC and Legal Aid NYC guides on what to do after a loved one is detained: New York resources, not Arizona.",
+            "- Removed from the page in this version: the ICE locator brochure quotes, the EOIR ACIS quotes, the ACLU lawsuit quote, the ACLU of Arizona zine and contact quotes, and the links to KJZZ, ACLU Request Legal Assistance and ACLU We Have Rights. The ACLU of Arizona terms questions no longer apply.",
             "", "## Notes for the reviewer", "",
-            "- Spanish headings, buttons and notices written for this page were produced by an AI and need a native-speaker read: see NEEDS-NATIVE-READ.md. The quoted Spanish (ICE brochure, EOIR ACIS, ACLU of Arizona zine) is the sources' own, including their typos.",
-            "- The page never tells anyone what to do about a legal case in our own words. It names the four tools and quotes what each source says.",
-            "- Two ICE statements differ in wording (brochure vs fact sheet) on what the locator needs; the page quotes the brochure and links the fact sheet. See the row above.",
+            "- Spanish headings, buttons, card labels and notices written for this page were produced by an AI and need a native-speaker read: see NEEDS-NATIVE-READ.md. The quoted ICE and EOIR text is in English only (the sources' own).",
+            "- The guide cards describe each guide's contents in short factual labels taken from the guide's own headings. They are our wording and are listed for a native read and a content read.",
+            "- Attorney review: none of the three guides says a lawyer reviewed it. The Florence Project guide was written by volunteer lawyers and advocates (their statement). This is stated on the page.",
             ""]
     return "\n".join(out)
 
@@ -557,7 +556,7 @@ def native_md():
             seen.add(s)
             rows.append(s)
     out = ["# Spanish text written for this page (needs a native-speaker read)", "",
-           "Generated by `tools/build.py`. Every Spanish string below was written by an AI, not copied from a source. The quoted Spanish (ICE brochure, EOIR ACIS, ACLU of Arizona zine) is not listed here because it is copied unchanged.",
+           "Generated by `tools/build.py`. Every Spanish string below was written by an AI, not copied from a source. The titles of the three guides and the publisher names are the sources' own and are listed only where we translated or shortened them. No quoted Spanish remains on the page.",
            "Questions for the reader: natural for Mexican and Central American Spanish readers in Arizona? Is \"detenido por ICE\" the usual way to say it? Are \"número A\", \"localizador\", \"tribunal de inmigración\" and \"ayuda legal gratis\" understood? Does any phrase sound like legal advice or promise a result? Is the tone calm enough for someone frightened?", "",
            "Also written by us, in `app.js`: the ES page title and description (same strings as the first two items below).", ""]
     out += ["%d. %s" % (i, r) for i, r in enumerate(rows, 1)]

@@ -64,7 +64,7 @@ const server = http.createServer((req, res) => {
     const a = await page.evaluate(() => [document.documentElement.lang, location.search, document.title, document.getElementById('lang-en').getAttribute('aria-pressed'), getComputedStyle(document.querySelector('.wrap.es')).display]);
     await page.click('#lang-es');
     const b = await page.evaluate(() => [document.documentElement.lang, location.search]);
-    const ok = a.join('|') === 'en|?lang=en|A loved one was detained by ICE in Arizona: first steps|true|none' && b.join('|') === 'es|'; if (!ok) fail++;
+    const ok = a.join('|') === 'en|?lang=en|A loved one was detained by ICE: the best guides|true|none' && b.join('|') === 'es|'; if (!ok) fail++;
     log(`language toggle: ${ok ? 'OK' : 'FAIL'} ${JSON.stringify(a)} ${JSON.stringify(b)}`);
     await page.emulateMedia({ media: 'print' }); await page.screenshot({ path: `${OUT}/es-print-preview.png` });
     await ctx.close();

@@ -29,7 +29,7 @@ const need = { Organization: ['name', 'url'], WebSite: ['name', 'url'], WebPage:
 for (const [t, props] of Object.entries(need)) for (const p of props) ok(by(t) && by(t)[p], `JSON-LD ${t}.${p}`);
 ok(ld['@context'] === 'https://schema.org', 'JSON-LD @context');
 const ids = new Set(g.map(x => x['@id'])); ok(g.every(x => Object.values(x).every(v => !(v && v['@id'] && Object.keys(v).length === 1) || ids.has(v['@id']))), 'JSON-LD @id references resolve');
-ok(!/FAQPage/.test(m[1]) && by('HowTo') && by('HowTo').step.length === 4, 'HowTo with 4 steps matches the four visible steps; no FAQPage');
+ok(!/FAQPage/.test(m[1]) && by('ItemList') && by('ItemList').itemListElement.length === 3 && by('ItemList').itemListElement.every(x => html.includes(x.url)), 'ItemList of the 3 guides matches the three visible guide cards; no FAQPage');
 ok(by('WebPage').name === un(title) && by('WebSite').description === un(desc), 'JSON-LD name/description match visible title/description');
 ok(!/Brian|Allen/i.test(html.replace(/https:\/\/brianallengit\.github\.io\/ser-querido-detenido-az\//g, '')), 'no real name in HTML (apart from the planned github.io host, same as Fresh Start)');
 // robots, sitemap, llms, manifest

@@ -1,17 +1,17 @@
-PASS title 59 chars: Mi familiar fue detenido por ICE en Arizona: primeros pasos
-PASS meta description 158 chars
+PASS title 51 chars: Mi familiar fue detenido por ICE: las mejores guías
+PASS meta description 157 chars
 PASS canonical
 PASS hreflang es
 PASS hreflang en
 PASS hreflang x-default
 PASS html lang
 PASS robots meta
-PASS og:title = Mi familiar fue detenido por ICE en Arizona: primeros pasos
-PASS og:description = ¿No puedes comunicarte con alguien y ICE puede tenerlo? Cómo buscarlo,
+PASS og:title = Mi familiar fue detenido por ICE: las mejores guías
+PASS og:description = Guías ya hechas por organizaciones para familias de personas detenidas
 PASS og:type = website
 PASS og:url = https://brianallengit.github.io/ser-querido-detenido-az/
 PASS og:image = https://brianallengit.github.io/ser-querido-detenido-az/og-image.png
-PASS og:image:alt = Ser querido detenido, Arizona: cuatro primeros pasos con fuentes ofici
+PASS og:image:alt = Ser querido detenido, Arizona: las mejores guías que ya existen, en tu
 PASS og:locale = es_US
 PASS og:locale:alternate = en_US
 PASS og:site_name = Ser querido detenido · Arizona
@@ -29,7 +29,7 @@ PASS link icon" href="favicon.svg
 PASS link icon" href="favicon-32.png
 PASS link apple-touch-icon" href="apple-touch-icon.png
 PASS link manifest" href="manifest.webmanifest
-PASS og-image.png 1200x630, 77094 bytes
+PASS og-image.png 1200x630, 76772 bytes
 PASS favicon-32.png 32x32
 PASS apple-touch-icon.png 180x180
 PASS icon-192.png 192x192
@@ -43,7 +43,7 @@ PASS JSON-LD WebPage.name
 PASS JSON-LD WebPage.url
 PASS JSON-LD @context
 PASS JSON-LD @id references resolve
-PASS HowTo with 4 steps matches the four visible steps; no FAQPage
+PASS ItemList of the 3 guides matches the three visible guide cards; no FAQPage
 PASS JSON-LD name/description match visible title/description
 PASS no real name in HTML (apart from the planned github.io host, same as Fresh Start)
 PASS robots.txt allows all and names sitemap

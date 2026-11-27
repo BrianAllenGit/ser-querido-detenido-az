@@ -35,6 +35,6 @@ const out = []; let fail = 0; const log = m => { console.log(m); out.push(m); };
       const r = await q.evaluate(() => ({ fc: matchMedia('(forced-colors: active)').matches, rm: matchMedia('(prefers-reduced-motion: reduce)').matches, sb: getComputedStyle(document.documentElement).scrollBehavior })); ok(r.fc && r.rm && r.sb === 'auto', `forced-colors and reduced-motion emulated ${lang}: ${JSON.stringify(r)}`); await c.close(); }
   }
   // no-JS: both languages visible and all content in the static HTML
-  { const c = await b.newContext({ javaScriptEnabled: false }); const q = await c.newPage(); await q.goto(base); const n = await q.evaluate(() => document.querySelectorAll('section.panel').length); ok(n >= 6, `JavaScript off: ${n} panels present in static HTML`); await c.close(); }
+  { const c = await b.newContext({ javaScriptEnabled: false }); const q = await c.newPage(); await q.goto(base); const n = await q.evaluate(() => document.querySelectorAll('section.panel').length); ok(n >= 4, `JavaScript off: ${n} panels present in static HTML`); await c.close(); }
   log(fail ? `EXTRA FAIL (${fail})` : 'EXTRA PASS'); fs.writeFileSync('/out/extra.txt', out.join('\n') + '\n'); await b.close(); server.close(); process.exit(fail ? 1 : 0);
 })();

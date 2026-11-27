@@ -209,6 +209,10 @@ add("acluaz_limits_en", "en", "az", "https://www.acluaz.org/contact-us/", "Conta
     p(between(ct, "The ACLU-AZ is not a general legal service", " Please visit the Request Legal Assistance")) + "\n" +
     p(between(ct, "We do not provide presentations or legal advice about immigration law,", " ALL requests")), "page shows no date; read 2026-11-27", "2026")
 
+# The page boosts existing guides and keeps only the quotes that carry the Arizona phone numbers (see tools/build.py).
+KEEP = ["ero_phoenix_en", "eloy_en", "florence_en", "eoir_status_en", "eoir_list_az_en"]
+quotes = {k: v for k, v in quotes.items() if k in KEEP}
+
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(quotes, f, ensure_ascii=False, indent=1)
     f.write("\n")

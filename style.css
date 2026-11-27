@@ -104,3 +104,13 @@ footer{max-width:760px;margin:0 auto;padding:8px 16px 32px;font-size:1.05rem}
 .jump h2{font-size:1.3rem}
 @media print{.line{height:1.6rem}.fields{gap:6pt}.jump{display:none}}
 .jump .btn{justify-content:flex-start}
+
+.guide{margin:16px 0;padding:14px 12px;border:2px solid var(--accent);border-radius:10px;background:#f7fafd}
+.guide h3{margin:.2em 0 .6em;font-size:1.35rem}
+.gfor{margin:0;font-size:1.05rem;font-weight:700;color:var(--accent)}
+.meta{margin:0 0 .6em}
+.meta div{margin:0 0 .6em}
+.meta dt{font-weight:700;font-size:1.05rem}
+.meta dd{margin:0}
+.srcq{margin:12px 0}
+.srcq summary{min-height:56px;display:flex;align-items:center;padding:8px 14px;font-weight:700;border:2px solid var(--accent);border-radius:8px;background:#fff;color:var(--accent);cursor:pointer}
