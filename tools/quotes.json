@@ -1,0 +1,262 @@
+{
+ "odls_what_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>What is the Online Detainee Locator System?</h3>\n<p>The Online Detainee Locator System (ODLS) is a public system available on the internet that allows family members, legal representatives, and members of the public to locate individuals who are detained by ICE. To use the ODLS, please visit http://www.ice.gov/locator.</p>\n<p>Previously, the only way to determine the location of an individual who had been detained was by contacting an ICE Enforcement and Removal Operations (ERO) office. As part of detention reform, ICE has deployed the ODLS so that family members and attorneys can locate an individual who has been detained more easily online, 24 hours a day, seven days a week. The system is also available in Spanish and seven other languages.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_search_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>How does a family member or an attorney conduct a search to find an individual who has been detained by ICE?</h3>\n<p>You can search the ODLS in two ways:</p>\n<p>1. By Alien Registration Number (A-Number) and country of birth. The best way to search the system is by using the A-Number and country of birth of the individual who has been detained. The A-Number is the nine-digit identification number that is assigned to a person who applies for immigration benefits or is subject to immigration enforcement proceedings. The nine-digit A-Number may begin with zeros. A-Numbers are unique and are assigned to one per person. The A-Number can be found in the top right corner of the Notice to Appear (NTA), Form I-862. Along with the A-Number, you need to input the individual’s country of birth, or</p>\n<p>2. By last name, first name, and country of birth. If you do not have the A-Number of the individual who has been detained, you can search the system using the individual’s first and last name and country of birth. If you are unsuccessful in your search, consider entering variations of the individual’s name.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_exact_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>Do I have to know exactly how to spell the name of an individual who has been detained?</h3>\n<p>Yes. The ODLS performs an exact-match search. This means that in order to find an individual who has been detained, you must enter the person’s exact A-Number or their first and last name as it appears on his or her detention record. If you accidentally type an individual’s information incorrectly, the system may not give you the correct result.</p>\n<p>For example, a search for “Robert Smith” will not return a detention record for “Robert Smyth” or “Bob Smith.”</p>\n<p>When you search using an A-Number, only one record will appear in the results, because every person has a unique A-Number. However, when you search using a person’s name, many records may appear in the results if a lot of individuals who are detained share the same name and country of birth. When many records appear, look for the individual’s year of birth, which will also be listed in the results, or search using the individual’s A-Number.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_notin_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>Who is not in the ODLS?</h3>\n<p>The ODLS does not provide location information about everyone who has been detained. Safety, security, and agency discretion prevent some individuals from appearing in the ODLS. For example, juveniles (individuals under the age of 18) do not appear in the system. Also, some individuals may not be entered into the ODLS immediately after they are detained, depending on processing and upload time.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_found_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>I have found who I am looking for. Now what do I do?</h3>\n<p>If you have found the individual you are looking for, you should contact the facility using the information provided to confirm the individual is there since the information in the ODLS could be up to eight hours old. If you decide to visit the individual who is being detained, you should contact the detention facility ahead of time to confirm their visiting hours and rules. You will also need to bring government-issued photo identification if you visit the facility.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_notfound_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf",
+  "title": "How Do I Locate Someone in Immigration Detention? Online Detainee Locator System",
+  "html": "<h3>What should I do if I still can’t find anything after a search?</h3>\n<p>The ODLS only has information for individuals who are currently detained by ICE. If you are unable to locate an individual in the ODLS who has been detained, please contact the appropriate ICE ERO field office.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_what_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<h3>¿Qué es el Sistema Localizador de Detenidos en Línea?</h3>\n<p>El Sistema Localizador de Detenidos en Línea (ODLS, por sus siglas en inglés) es un sistema público disponible en internet que permite que los familiares, representantes legales y miembros del público en general puedan localizar a individuos que han sido detenidos por el ICE. Para utilizar el sistema ODLS, sírvase visitar el sitio http://www.ice.gov/locator.</p>\n<p>Anteriormente, la única forma de determinar la ubicación de un individuo que había sido detenido era contactando con una oficina de Operaciones de Ejecución y Deportación (ERO) del ICE. Como parte de la reforma del sistema de detenciones, el ICE ha implementado el ODLS para que los familiares y abogados puedan localizar a un individuo que ha sido detenido con mayor facilidad en línea, durante las 24 horas del día, los siete días de la semana. El sistema también está disponible en español, y otros siete idiomas.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_search_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<h3>¿Cómo puede un familiar o abogado buscar a un individuo que ha sido detenido por el ICE?</h3>\n<p>Usted puede realizar una búsqueda en el ODLS mediante dos formas:</p>\n<p>1. Por Número de Registro de Extranjero (A-Number) y país de nacimiento. La mejor manera de realizar una búsqueda en el sistema es utilizar el “A-Number” y el país de nacimiento del individuo que ha sido detenido. El “A-Number” es el número de identificación de nueve dígitos que se asigna a una persona que solicita beneficios de inmigración o que está sujeta a procedimientos de control inmigratorio. El “A-Number” de nueve dígitos puede comenzar con ceros. Los “A-Numbers” son únicos, y sólo se asigna uno por persona. El “A-Number” se halla en el extremo superior derecho de la Notificación de Comparecencia (NTA), el Formulario I-862. Junto con el “A-Number”, usted debe ingresar el país de nacimiento del individuo, o</p>\n<p>2. Por apellido, nombre de pila y país de nacimiento.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_exact_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<p>Sí. El ODLS realiza una búsqueda exacta. Esto significa que para poder encontrar a un individuo que ha sido detenido, usted debe ingresar el “A-Number” exacto de la persona, o su nombre de pila y apellido tal como aparecen en su registro de detención. Si escribe la información de una persona de forma incorrecta accidentalmente, el sistema quizá no le proporcione el resultado correcto.</p>\n<p>Por ejemplo, la búsqueda con el nombre “Robert Smith” no le permitirá acceder a un registro de detención bajo el nombre “Robert Smyth” o “Bob Smith.”</p>\n<p>Al realizar una búsqueda utilizando un “A-Number”, aparecerá sólo un registro en los resultados, ya que cada persona posee un único “A-Number”. No obstante, cuando la búsqueda se realice usando el nombre de una persona, pueden aparecer varios registros entre los resultados, si es que existen varios individuos que están detenidos con el mismo nombre y país de nacimiento. Cuando aparezcan muchos registros, busque el año de nacimiento del individuo, que también aparecerá entre los resultados, o realice la búsqueda utilizando el “A-Number” del individuo.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_notin_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<h3>¿Quiénes no aparecen en el ODLS?</h3>\n<p>El ODLS no proporciona información acerca de la ubicación de todas las personas que han sido detenidas. Las cuestiones de seguridad, protección y la discreción de la agencia evitan que algunas personas aparezcan en el ODLS. Por ejemplo, los menores de edad (individuos menores de 18 años) no aparecen en el sistema. Además, algunas personas quizá no sean ingresadas al ODLS inmediatamente después de ser detenidas, dependiendo del tiempo de procesamiento y carga de los datos.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_found_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<h3>He encontrado a la persona que busco, ¿qué debo hacer ahora?</h3>\n<p>Si encontró al individuo que buscaba, debe comunicarse con el centro utilizando la información proporcionada para confirmar que el individuo se encuentra allí, ya que la información en el ODLS podría tener una antigüedad de hasta ocho horas. Si decide visitar al individuo que está detenido, debe comunicarse con el centro de detención en forma anticipada para confirmar sus horarios y normas de visita. Para visitar el centro, también deberá llevar una identificación con fotografía emitida por el gobierno.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "odls_notfound_es": {
+  "lang": "es",
+  "kind": "ice",
+  "url": "https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf",
+  "title": "¿Cómo localizo a alguien bajo detención inmigratoria? Sistema Localizador de Detenidos en Línea",
+  "html": "<h3>¿Qué debería hacer si aún no obtengo resultados luego de una búsqueda?</h3>\n<p>El ODLS sólo posee información de individuos que actualmente se encuentran detenidos por el ICE. Si no puede localizar en el ODLS a un individuo que se encuentra detenido sírvase comunicarse con la oficina local de la ERO del Servicio de Inmigración y Control de Aduanas de los Estados Unidos (ICE, por sus siglas en inglés) que resulte adecuada.</p>",
+  "doc_date": "12/2021",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "ero_phoenix_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/contact/ero",
+  "title": "ICE Field Offices: Phoenix",
+  "html": "<p>Phoenix - ERO<br>Phoenix Field Office<br>2035 N. Central Avenue<br>Phoenix, AZ 85004<br>(602) 257-5900<br>Area of Responsibility: Arizona<br>Email: Phoenix.Outreach@ice.dhs.gov</p>",
+  "doc_date": "Updated: 09/02/2026",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "eloy_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/detain/detention-facilities/eloy-detention-center",
+  "title": "Eloy Detention Center",
+  "html": "<h3>Eloy Detention Center</h3>\n<p>If you need information about a detainee that is housed at this facility, you may call (520) 464-3000 between the hours of 8 a.m. and 4 p.m. When you call, please have the individual’s biographical information ready, including first, last and hyphenated names, any aliases he or she may use, date of birth and country of birth.</p>\n<p>Detainees cannot receive incoming calls. If you need to get in touch with a detainee to leave an urgent message, you must call (520) 466-4141 and leave the detainee’s full name, alien registration number and your name and telephone number where you can be reached. The detainee will be given your message.</p>",
+  "doc_date": "Updated: 08/06/2026",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "florence_en": {
+  "lang": "en",
+  "kind": "ice",
+  "url": "https://www.ice.gov/detain/detention-facilities/florence-spc",
+  "title": "Florence Service Processing Center",
+  "html": "<h3>Florence Service Processing Center</h3>\n<p>If you need information about a detainee that is housed at this facility, you may call (520) 868-5862 between the hours of 8 a.m. and 4 p.m. When you call, please have the individual’s biographical information ready, including first, last and hyphenated names, any aliases he or she may use, date of birth and country of birth.</p>\n<p>Detainees cannot receive incoming calls. If you need to get in touch with a detainee to leave an urgent message, you must call (520) 868-8388 and leave the detainee’s full name, alien registration number and your name and telephone number where you can be reached. The detainee will be given your message.</p>",
+  "doc_date": "Updated: 08/06/2026",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "eoir_status_en": {
+  "lang": "en",
+  "kind": "doj",
+  "url": "https://www.justice.gov/eoir/check-case-status",
+  "title": "Check Case Status (EOIR)",
+  "html": "<p>To obtain case information online, please access EOIR&#x27;s Automated Case Information system. Alternatively, case information may be found by calling 1-800-898-7180 / 304-625-2050 (TDD 800-828-1120). The Automated Case Information system will not reflect a new hearing date until a new date has been set by the immigration court. Please note that court documents such as hearing notices are the official source of information on case status.</p>",
+  "doc_date": "Updated December 14, 2025",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "acis_intro_en": {
+  "lang": "en",
+  "kind": "doj",
+  "url": "https://acis.eoir.justice.gov/en/",
+  "title": "Automated Case Information (ACIS)",
+  "html": "<p>Welcome to the Automated Case Information System (ACIS). ACIS provides basic information about the status of certain cases before an immigration court or the Board of Immigration Appeals. Not all cases, or all information about a case is displayed. ACIS includes details regarding the primary case only. If there has been more than one case for the A-Number, ACIS displays the most recent case. Please contact your local court if you need bond hearing information.</p>",
+  "doc_date": "page shows no date",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "acis_official_en": {
+  "lang": "en",
+  "kind": "doj",
+  "url": "https://acis.eoir.justice.gov/en/",
+  "title": "Automated Case Information (ACIS)",
+  "html": "<p>Case information from this automated resource is provided for convenience only. Documents the immigration court or Board of Immigration Appeals issue to you or your representative are the only official determinations related to your case.</p>",
+  "doc_date": "page shows no date",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "acis_intro_es": {
+  "lang": "es",
+  "kind": "doj",
+  "url": "https://acis.eoir.justice.gov/es/",
+  "title": "Información automatizada de casos (ACIS)",
+  "html": "<p>Le damos la bienvenida al Sistema de Información Automatizada de Casos (ACIS, por sus siglas en inglés). ACIS ofrece información básica sobre el estado de determinados casos ante un tribunal de inmigración o ante la Junta de Apelaciones de Inmigración. ACIS no muestra todos los casos ni toda la información sobre un caso. ACIS solo incluye los datos relativos al caso principal. Si hay más de un caso para un número-A, ACIS muestra el caso más reciente. Póngase en contacto con su tribunal local si necesita información sobre audiencias de fianza.</p>",
+  "doc_date": "page shows no date",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "acis_official_es": {
+  "lang": "es",
+  "kind": "doj",
+  "url": "https://acis.eoir.justice.gov/es/",
+  "title": "Información automatizada de casos (ACIS)",
+  "html": "<p>La información sobre el caso que aparece en este sistema automatizado, se provee a penas para su conveniencia. Los documentos que se le emitan a usted o a su representante por el tribunal de inmigración o el tribunal de apelaciones, son los únicos de carácter oficial relacionado a su caso.</p>",
+  "doc_date": "page shows no date",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "eoir_list_az_en": {
+  "lang": "en",
+  "kind": "doj",
+  "url": "https://www.justice.gov/eoir/list-pro-bono-legal-service-providers",
+  "title": "List of Pro Bono Legal Service Providers: Arizona",
+  "html": "<h3>Eloy Immigration Court</h3>\n<p>Eloy, Arizona</p>\n<h4>Florence Immigrant and Refugee Rights Project*</h4>\n<p>P.O. Box 86299<br>Tucson, AZ 85754<br>Tel: (602) 307-1008<br>firrp@firrp.org<br>www.firrp.org</p>\n<ul><li>Removal defense, orientation materials</li><li>Languages: Staff speaks Spanish</li></ul>\n<h4>ABA Commission on Immigration Detention Information Hotline**</h4>\n<p>1050 Connecticut Avenue, NW, Unit 400<br>Washington, DC 20036<br>immcenter@americanbar.org<br>www.americanbar.org/groups/public_interest/<br>immigration/</p>\n<ul><li>Pro se case assistance for detained respondents only</li><li>Respondents detained at Immigration and Customs Enforcement (ICE) or Bureau of Prisons (BOP) facilities should contact our speed dial at 2150#</li><li>To contact on behalf of an individual detained by ICE or BOP, email immcenter@americanbar.org</li><li>Respondents detained at Department of Defense (DOD) military facilities (including Guantanamo) should contact our toll-free hotline at 1 (855) 641-6081</li></ul>\n<p>* Non-Profit Organization ** Referral Service *** Private Attorney</p>",
+  "doc_date": "Updated October 2026",
+  "year": null,
+  "retrieved": "2026-11-27"
+ },
+ "aclu_lawsuit_en": {
+  "lang": "en",
+  "kind": "aclu",
+  "url": "https://www.aclu.org/press-releases/immigrants-rights-organizations-file-lawsuit-to-stop-ice-from-hiding-locations-of-detained-people",
+  "title": "Immigrants' Rights Organizations File Lawsuit to Stop ICE from Hiding Locations of Detained People",
+  "html": "<p>For over 16 years, the U.S. Department of Homeland Security has made the location of detained noncitizens available via its Online Detainee Locator System. In September, DHS abruptly changed course and stopped sharing the location of detained people with final orders of removal, either via the locator service or in direct response to queries from family members or attorneys.</p>",
+  "doc_date": "October 28, 2026",
+  "year": "2026",
+  "retrieved": "2026-11-27"
+ },
+ "zine_family_en": {
+  "lang": "en",
+  "kind": "az",
+  "url": "https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf",
+  "title": "Know Your Rights with Police, ICE, and Border Patrol (zine)",
+  "html": "<p>Remember your immigration number (“A” number) and give it to your family. It will help family members locate you in case you are detained. Keep a copy of your immigration documents with someone you trust.</p>\n<p>Prepare yourself and your family in case you are arrested. Memorize the phone numbers of your family and your lawyer. Make emergency plans if you have children or take medication. Identify a caregiver for your children in advance.</p>",
+  "doc_date": "January 2025 (from the file name)",
+  "year": "2025",
+  "retrieved": "2026-11-27"
+ },
+ "zine_family_es": {
+  "lang": "es",
+  "kind": "az",
+  "url": "https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf",
+  "title": "Conozca sus derechos con la policía, ICE y la Patrulla Fronteriza (librito)",
+  "html": "<p>Recuerde su número de inmigración (el número que empieza con la &quot;A&quot;) y déjelo con su familia. Esto ayudará a que sus familiares puedan localizarlo en caso de que sea detenido. Mantenga una copia de sus documentos migratorios con una persona de confianza.</p>\n<p>Prepárese usted y a su familia en caso de que sea arrestado. Memorice los números de teléfono de su familia y de su abogado/a. Haga planes de emergencia si tiene hijos o necesita medicamentos. Identifique a alguien que pueda cuidar a sus hijos en caso de que sea necesario.</p>",
+  "doc_date": "January 2025 (from the file name)",
+  "year": "2025",
+  "retrieved": "2026-11-27"
+ },
+ "zine_lawyer_en": {
+  "lang": "en",
+  "kind": "az",
+  "url": "https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf",
+  "title": "Know Your Rights with Police, ICE, and Border Patrol (zine)",
+  "html": "<p>If you are detained by ICE or Border Patrol, you have the right to hire a lawyer, but the government does not have to provide one for you. Ask for a list of free or low-cost alternatives. You also have the right to call a lawyer or your family, and you have the right to be visited by a lawyer in detention. You have the right to have your attorney with you at any hearing before an immigration judge.</p>",
+  "doc_date": "January 2025 (from the file name)",
+  "year": "2025",
+  "retrieved": "2026-11-27"
+ },
+ "acluaz_limits_en": {
+  "lang": "en",
+  "kind": "az",
+  "url": "https://www.acluaz.org/contact-us/",
+  "title": "Contact Us (ACLU of Arizona)",
+  "html": "<p>The ACLU-AZ is not a general legal service and is unable to answer legal questions, review papers, conduct legal research, provide information about the legal deadlines that might apply to your situation or provide you with other kinds of assistance unless we accept your case.</p>\n<p>We do not provide presentations or legal advice about immigration law, nor do we provide personal advice or presentations about the Deferred Action for Childhood Arrivals (DACA) program.</p>",
+  "doc_date": "page shows no date; read 2026-11-27",
+  "year": "2026",
+  "retrieved": "2026-11-27"
+ }
+}

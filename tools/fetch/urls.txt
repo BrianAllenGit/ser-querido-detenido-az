@@ -1,0 +1,16 @@
+ice_odls_en https://www.ice.gov/factsheets/odls
+ice_odls_es https://www.ice.gov/es/hojas-de-datos/odls
+pdf/odls_brochure_en https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf
+pdf/odls_brochure_es https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf
+eoir_status_en https://www.justice.gov/eoir/check-case-status
+eoir_status_es https://www.justice.gov/eoir/check-case-status-espanol
+eoir_prolist https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+acis_en https://acis.eoir.justice.gov/en/
+acis_es https://acis.eoir.justice.gov/es/
+aclu_wehaverights https://www.aclu.org/we-have-rights
+aclu_detention_qa https://www.aclu.org/news/immigrants-rights/the-questions-you-probably-think-you-know-the-answer-to-but-likely-dont-about-ice-detention
+acluaz_neighbor https://www.acluaz.org/news/protecting-community-one-neighbor-at-a-time/
+aclu_lawsuit https://www.aclu.org/press-releases/immigrants-rights-organizations-file-lawsuit-to-stop-ice-from-hiding-locations-of-detained-people
+terms_ice https://www.ice.gov/website-policies
+terms_aclu https://www.aclu.org/terms-of-use
+terms_eoir https://www.justice.gov/legal-policies

@@ -1,0 +1,4 @@
+ice_ero https://www.ice.gov/contact/ero
+ice_eloy https://www.ice.gov/detain/detention-facilities/eloy-detention-center
+ice_florence https://www.ice.gov/detain/detention-facilities/florence-spc
+ice_cac https://www.ice.gov/detention-facility/central-arizona-correctional-center

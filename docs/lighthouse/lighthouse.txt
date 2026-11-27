@@ -1,0 +1,10 @@
+lighthouse mobile es: performance 100, accessibility 100, best-practices 100, seo 100
+  not 100: first-contentful-paint (0.97) 1.4 s
+  not 100: uses-long-cache-ttl (0.5) 2 resources found
+  not 100: render-blocking-resources (0) Potential savings of 260 ms
+  not 100: uses-text-compression (0) Potential savings of 65 KiB
+lighthouse mobile en: performance 100, accessibility 100, best-practices 100, seo 100
+  not 100: first-contentful-paint (0.98) 1.4 s
+  not 100: uses-long-cache-ttl (0.5) 2 resources found
+  not 100: render-blocking-resources (0) Potential savings of 290 ms
+  not 100: uses-text-compression (0) Potential savings of 65 KiB

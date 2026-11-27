@@ -1,0 +1,94 @@
+What does the term “in custody” mean?
+“In custody” means the individual is currently in one of ICE’s detention facilities. The
+ODLS will provide the name of the detention facility where the individual is located
+and information about contacting or visiting that facility. The ODLS will also provide
+the contact information for the ERO office responsible for the individual’s case.
+
+Who is not in the ODLS?
+The ODLS does not provide location
+information about everyone who
+has been detained. Safety, security,
+and agency discretion prevent
+some individuals from appearing in
+the ODLS. For example, juveniles
+(individuals under the age of 18)
+do not appear in the system.
+Also, some individuals may not be
+entered into the ODLS immediately
+after they are detained, depending
+on processing and upload time.
+
+I have found who I am looking for. Now what do I do?
+If you have found the individual you are looking for, you should contact the
+facility using the information provided to confirm the individual is there since
+the information in the ODLS could be up to eight hours old. If you decide to visit
+the individual who is being detained, you should contact the detention facility
+ahead of time to confirm their visiting hours and rules. You will also need to bring
+government-issued photo identification if you visit the facility.
+
+I still have more questions. Where should I go?
+There are more frequently asked questions (FAQs) on the ODLS website:
+https://locator.ice.gov/odls/#/about.
+
+How Do I Locate Someone in Immigration Detention?
+
+Online Detainee
+Locator System
+www.ice.gov/locator
+
+12/2021
+
+What is the Online Detainee Locator System?
+The Online Detainee Locator System (ODLS) is a public system available on the
+internet that allows family members, legal representatives, and members of the
+public to locate individuals who are detained by ICE. To use the ODLS, please visit
+http://www.ice.gov/locator.
+Previously, the only way to determine the location of an individual who had been
+detained was by contacting an ICE Enforcement and Removal Operations (ERO)
+office. As part of detention reform, ICE has deployed the ODLS so that family
+members and attorneys can locate an individual who has been detained more
+easily online, 24 hours a day, seven days a week. The system is also available in
+Spanish and seven other languages.
+
+Do I have to know exactly how to spell the name of an individual
+who has been detained?
+Yes. The ODLS performs an exact-match search. This means that in order to find
+an individual who has been detained, you must enter the person’s exact A-Number
+or their first and last name as it appears on his or her detention record. If you
+accidentally type an individual’s information incorrectly, the system may not give
+you the correct result.
+
+How does a family member or an attorney conduct a search to
+find an individual who has been detained by ICE?
+You can search the ODLS in two ways:
+1. By Alien Registration Number (A-Number) and country of birth.
+The best way to search the system is by using the A-Number and country of
+birth of the individual who has been detained. The A-Number is the nine-digit
+identification number that is assigned to a person who applies for immigration
+benefits or is subject to immigration enforcement proceedings. The nine-digit
+A-Number may begin with zeros. A-Numbers are unique and are assigned to
+one per person. The A-Number can be found in the top right corner of the Notice
+to Appear (NTA), Form I-862. Along with the A-Number, you need to input the
+individual’s country of birth, or
+2. By last name, first name, and country of birth.
+If you do not have the A-Number of the individual who has been detained, you
+can search the system using the individual’s first and last name and country of
+birth. If you are unsuccessful in your search, consider entering variations of the
+individual’s name.
+
+For example, a search for “Robert Smith” will not return a detention record for
+“Robert Smyth” or “Bob Smith.”
+When you search using an A-Number, only one record will appear in the results,
+because every person has a unique A-Number. However, when you search using
+a person’s name, many records may appear in the results if a lot of individuals
+who are detained share the same name and country of birth. When many records
+appear, look for the individual’s year of birth, which will also be listed in the results,
+or search using the individual’s A-Number.
+
+What should I do if I still can’t find anything after a search?
+The ODLS only has information for individuals who are currently detained by ICE. If
+you are unable to locate an individual in the ODLS who has been detained, please
+contact the appropriate ICE ERO field office. A list of the various ERO field offices
+and their contact information is available at https://www.ice.gov/contact/fieldoffices, then filter by office to Enforcement and Removal Operations.
+
+

@@ -1,0 +1,111 @@
+¿Qué significa las frase “bajo custodia”?
+“Bajo custodia” significa que la persona actualmente se encuentra en uno de
+los centros de detención del ICE. El ODLS proporcionará el nombre del centro
+de detención donde se encuentra el individuo, así como información para poder
+comunicarse con el centro o visitarlo. El ODLS también brindará la información de
+contacto de la oficina ERO responsable del caso del individuo.
+
+¿Quiénes no aparecen en el ODLS?
+El ODLS no proporciona información
+acerca de la ubicación de todas las
+personas que han sido detenidas.
+Las cuestiones de seguridad,
+protección y la discreción de
+la agencia evitan que algunas
+personas aparezcan en el ODLS.
+Por ejemplo, los menores de
+edad (individuos menores de 18
+años) no aparecen en el sistema.
+Además, algunas personas quizá
+no sean ingresadas al ODLS
+inmediatamente después de ser
+detenidas, dependiendo del tiempo
+de procesamiento y carga de los datos.
+
+He encontrado a la persona que busco, ¿qué debo hacer ahora?
+Si encontró al individuo que buscaba, debe comunicarse con el centro utilizando la
+información proporcionada para confirmar que el individuo se encuentra allí, ya que
+la información en el ODLS podría tener una antigüedad de hasta ocho horas.
+Si decide visitar al individuo que está detenido, debe comunicarse con el centro de
+detención en forma anticipada para confirmar sus horarios y normas de visita. Para
+visitar el centro, también deberá llevar una identificación con fotografía emitida por
+el gobierno.
+
+¿Cómo localizo a alguien bajo detención inmigratoria?
+
+Sistema Localizador
+de Detenidos en Línea
+
+(Online Detainee Locator System)
+
+Aún deseo realizar más preguntas. ¿Adónde debo dirigirme?
+Puede acceder a más preguntas frecuentes (FAQs) en el sitio web de ODLS en
+https://locator.ice.gov/odls/#/about.
+
+12/2021
+
+www.ice.gov/locator
+
+¿Qué es el Sistema Localizador de Detenidos en Línea?
+El Sistema Localizador de Detenidos en Línea (ODLS, por sus siglas en inglés)
+es un sistema público disponible en internet que permite que los familiares,
+representantes legales y miembros del público en general puedan localizar a
+individuos que han sido detenidos por el ICE. Para utilizar el sistema ODLS, sírvase
+visitar el sitio http://www.ice.gov/locator.
+Anteriormente, la única forma de determinar la ubicación de un individuo
+que había sido detenido era contactando con una oficina de Operaciones de
+Ejecución y Deportación (ERO) del ICE. Como parte de la reforma del sistema de
+detenciones, el ICE ha implementado el ODLS para que los familiares y abogados
+puedan localizar a un individuo que ha sido detenido con mayor facilidad en línea,
+durante las 24 horas del día, los siete días de la semana. El sistema también está
+disponible en español, y otros siete idiomas.
+
+¿Debo saber exactamente cómo se escribe el nombre del
+individuo que ha sidodetenido?
+
+¿Cómo puede un familiar o abogado buscar a un individuo que
+ha sido detenido por el ICE?
+Usted puede realizar una búsqueda en el ODLS mediante dos formas:
+1. Por Número de Registro de Extranjero (A-Number) y país de nacimiento.
+La mejor manera de realizar una búsqueda en el sistema es utilizar el “A-Number”
+y el país de nacimiento del individuo que ha sido detenido. El “A-Number” es
+el número de identificación de nueve dígitos que se asigna a una persona que
+solicita beneficios de inmigración o que está sujeta a procedimientos de control
+inmigratorio. El “A-Number” de nueve dígitos puede comenzar con ceros. Los
+“A-Numbers” son únicos, y sólo se asigna uno por persona. El “A-Number” se
+halla en el extremo superior derecho de la Notificación de Comparecencia (NTA),
+el Formulario I-862. Junto con el “A-Number”, usted debe ingresar el país de
+nacimiento del individuo, o
+2. Por apellido, nombre de pila y país de nacimiento.
+“A-Number”, puede realizar una búsqueda en el sistema utilizando el nombre
+de pila, el apellido y el país de nacimiento del individuo. Si no tiene éxito en su
+búsqueda, trate de ingresar variaciones del nombre del individuo.
+
+Sí. El ODLS realiza una búsqueda exacta. Esto significa que para poder encontrar
+a un individuo que ha sido detenido, usted debe ingresar el “A-Number” exacto
+de la persona, o su nombre de pila y apellido tal como aparecen en su registro
+de detención. Si escribe la información de una persona de forma incorrecta
+accidentalmente, el sistema quizá no le proporcione el resultado correcto.
+Por ejemplo, la búsqueda con el nombre “Robert Smith” no le permitirá acceder a
+un registro de detención bajo el nombre “Robert Smyth” o “Bob Smith.”
+Al realizar una búsqueda utilizando un “A-Number”, aparecerá sólo un registro en
+los resultados, ya que cada persona posee un único “A-Number”. No obstante,
+cuando la búsqueda se realice usando el nombre de una persona, pueden aparecer
+varios registros entre los resultados, si es que existen varios individuos que están
+detenidos con el mismo nombre y país de nacimiento. Cuando aparezcan muchos
+registros, busque el año de nacimiento del individuo, que también aparecerá entre
+los resultados, o realice la búsqueda utilizando el “A-Number” del individuo.
+
+¿Qué debería hacer si aún no obtengo resultados luego de una
+búsqueda?
+El ODLS sólo posee información de individuos que actualmente se encuentran
+detenidos por el ICE. Si no puede localizar en el ODLS a un individuo que se
+encuentra detenido sírvase comunicarse con la oficina local de la ERO del Servicio
+de Inmigración y Control de Aduanas de los Estados Unidos (ICE, por sus siglas en
+inglés) que resulte adecuada. Puede encontrar una lista de las distintas oficinas
+locales de la Oficina de Detención y Deportación (ERO, por sus siglas en inglés) y
+su información de contacto enhttps://www.ice.gov/contact/field-offices, y luego
+buscar por oficina en “Enforcement and Removal Operations” (Operaciones de
+Detención y Deportación).
+
+

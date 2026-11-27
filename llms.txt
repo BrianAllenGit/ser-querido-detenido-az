@@ -1,0 +1,33 @@
+# Ser querido detenido · Arizona
+
+> A free, ad-free, zero-tracking one-page tool in Spanish and English for people in Arizona who cannot reach someone and think ICE may have detained them. It quotes, word for word and with credit, what ICE, the U.S. immigration courts (EOIR), the ACLU and the ACLU of Arizona say, and links to the official tools. It gives general information, not legal advice. Read on 2026-11-27.
+
+## What it is
+- Step 1, find them: ICE's own brochure on the Online Detainee Locator System (Spanish and English): search by A-Number and country of birth, or by name and country of birth; exact spelling; who is not in the system; what to do if not found; the ICE Phoenix field office; the Eloy and Florence facility information lines.
+- Step 2, their court case: EOIR's Automated Case Information (ACIS, online in Spanish and English) and EOIR's case line 1-800-898-7180.
+- Step 3, free legal help in Arizona: the EOIR List of Pro Bono Legal Service Providers for Arizona (Florence Immigrant and Refugee Rights Project; ABA Commission on Immigration Detention Information Hotline), and what the ACLU of Arizona does and does not do.
+- Step 4, your family: the ACLU of Arizona's passage on giving the A-Number to family and naming a caregiver (Spanish and English), with links to the Florence Project's family plan guide.
+- A printable card with the numbers and blank lines to write on.
+
+## Who it is for
+- Family members and friends of a person detained by ICE in Arizona, and the people who help them.
+
+## How to use it
+- Open the page, pick Spanish or English, follow the four steps. It works without JavaScript, stores nothing and has no analytics. The English view is the same page at ?lang=en.
+
+## Key links
+- Page: https://brianallengit.github.io/ser-querido-detenido-az/
+- English view: https://brianallengit.github.io/ser-querido-detenido-az/?lang=en
+
+## Sources
+- ICE Online Detainee Locator System brochure (English): https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf
+- ICE Online Detainee Locator System brochure (Spanish): https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf
+- ICE locator: https://www.ice.gov/locator
+- ICE field offices: https://www.ice.gov/contact/ero
+- EOIR Automated Case Information (Spanish): https://acis.eoir.justice.gov/es/
+- EOIR Check Case Status: https://www.justice.gov/eoir/check-case-status
+- EOIR List of Pro Bono Legal Service Providers: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+- ACLU of Arizona zine: https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf
+
+## Limits
+- Not legal advice. ICE's locator itself could not be opened by our tool, so its screens were not read. The locator may not show everyone: ICE says so, and a lawsuit by legal groups says people with final orders of removal stopped appearing in September 2026 (an allegation, not a court finding). Talk to a lawyer or a legal aid group about your own case.
