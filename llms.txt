@@ -1,33 +1,35 @@
 # Ser querido detenido · Arizona
 
-> A free, ad-free, zero-tracking one-page tool in Spanish and English for people in Arizona who cannot reach someone and think ICE may have detained them. It quotes, word for word and with credit, what ICE, the U.S. immigration courts (EOIR), the ACLU and the ACLU of Arizona say, and links to the official tools. It gives general information, not legal advice. Read on 2026-11-27.
+> A free, ad-free, zero-tracking one-page tool in Spanish and English for people in Arizona who cannot reach someone and think ICE may have detained them. It boosts existing guides made by organizations (linked, not copied), links the official ICE locator and EOIR case tools, and lists Arizona phone numbers copied word for word from ICE and EOIR pages. It gives general information, not legal advice. Read on 2026-11-27.
 
 ## What it is
-- Step 1, find them: ICE's own brochure on the Online Detainee Locator System (Spanish and English): search by A-Number and country of birth, or by name and country of birth; exact spelling; who is not in the system; what to do if not found; the ICE Phoenix field office; the Eloy and Florence facility information lines.
-- Step 2, their court case: EOIR's Automated Case Information (ACIS, online in Spanish and English) and EOIR's case line 1-800-898-7180.
-- Step 3, free legal help in Arizona: the EOIR List of Pro Bono Legal Service Providers for Arizona (Florence Immigrant and Refugee Rights Project; ABA Commission on Immigration Detention Information Hotline), and what the ACLU of Arizona does and does not do.
-- Step 4, your family: the ACLU of Arizona's passage on giving the A-Number to family and naming a caregiver (Spanish and English), with links to the Florence Project's family plan guide.
-- A printable card with the numbers and blank lines to write on.
+- Guide 1, Freedom for Immigrants: resources for people facing detention, their families and loved ones (Spanish and English, nationwide, no date shown): finding someone, court date, finding a lawyer, bond, sending money.
+- Guide 2, Florence Project (Arizona): "What if I'm Picked up by ICE in Arizona? Making a Family Plan" (Spanish and English, marked 2017), for parents.
+- Guide 3, Women's Refugee Commission: "Detained or Deported: What About My Children?" (Spanish and English PDF, March 2025), for parents.
+- Official tools: ICE Online Detainee Locator, EOIR Automated Case Information (Spanish and English), EOIR case status page.
+- Arizona phone numbers (ICE Phoenix, Eloy, Florence, EOIR case line, Florence Project) with the official text they come from.
 
 ## Who it is for
 - Family members and friends of a person detained by ICE in Arizona, and the people who help them.
 
 ## How to use it
-- Open the page, pick Spanish or English, follow the four steps. It works without JavaScript, stores nothing and has no analytics. The English view is the same page at ?lang=en.
+- Open the page, pick Spanish or English, open a guide. It works without JavaScript, stores nothing and has no analytics. The English view is the same page at ?lang=en.
 
 ## Key links
 - Page: https://brianallengit.github.io/ser-querido-detenido-az/
 - English view: https://brianallengit.github.io/ser-querido-detenido-az/?lang=en
 
 ## Sources
-- ICE Online Detainee Locator System brochure (English): https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure.pdf
-- ICE Online Detainee Locator System brochure (Spanish): https://www.ice.gov/doclib/news/library/factsheets/pdf/odls-brochure-esp.pdf
+- Freedom for Immigrants (English): https://www.freedomforimmigrants.org/resources
+- Freedom for Immigrants (Spanish): https://www.freedomforimmigrants.org/recursos
+- Florence Project family plan (English page): https://firrp.org/resources/prose/parentalrights/
+- Florence Project family plan (Spanish page): https://firrp.org/es/resources/prose/parentalrights/
+- Women's Refugee Commission toolkit page: https://www.womensrefugeecommission.org/research-resources/detained-or-deported-parental-toolkit-english-interactive/
 - ICE locator: https://www.ice.gov/locator
 - ICE field offices: https://www.ice.gov/contact/ero
 - EOIR Automated Case Information (Spanish): https://acis.eoir.justice.gov/es/
 - EOIR Check Case Status: https://www.justice.gov/eoir/check-case-status
 - EOIR List of Pro Bono Legal Service Providers: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
-- ACLU of Arizona zine: https://www.acluaz.org/app/uploads/2025/02/01-2025_aclu-az_immigrants-kyr_zine.pdf
 
 ## Limits
-- Not legal advice. ICE's locator itself could not be opened by our tool, so its screens were not read. The locator may not show everyone: ICE says so, and a lawsuit by legal groups says people with final orders of removal stopped appearing in September 2026 (an allegation, not a court finding). Talk to a lawyer or a legal aid group about your own case.
+- Not legal advice. None of the three guides says a lawyer reviewed it. The Florence Project guide is marked 2017, so its rules may have changed. ICE's locator itself could not be opened by our tool, so its screens were not read. Talk to a lawyer or a legal aid group about your own case.

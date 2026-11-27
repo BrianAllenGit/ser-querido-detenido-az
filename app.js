@@ -1,10 +1,10 @@
 (function () {
   'use strict';
   // Nothing is stored and nothing is sent. The language choice lives only in the page address (?lang=en).
-  var TITLES = { es: 'Mi familiar fue detenido por ICE en Arizona: primeros pasos', en: 'A loved one was detained by ICE in Arizona: first steps' };
+  var TITLES = { es: 'Mi familiar fue detenido por ICE: las mejores guías', en: 'A loved one was detained by ICE: the best guides' };
   var DESCS = {
-    es: '¿No puedes comunicarte con alguien y ICE puede tenerlo? Cómo buscarlo, revisar su caso y hallar ayuda legal gratis en Arizona. Fuentes oficiales, sin rastreo.',
-    en: 'Can\'t reach someone and ICE may have them? How to find them, check their court case and find free legal help in Arizona. Official sources, no tracking.'
+    es: 'Guías ya hechas por organizaciones para familias de personas detenidas por ICE, en español e inglés, a un toque. Con las herramientas oficiales. Sin rastreo.',
+    en: 'Guides already made by organizations for families of people detained by ICE, in Spanish and English, one tap away. With the official tools. No tracking.'
   };
   var root = document.documentElement;
 

@@ -21,12 +21,7 @@ SOURCE = {
     "ero_phoenix_en": ["ice_ero.txt"], "eloy_en": ["ice_eloy.txt"], "florence_en": ["ice_florence.txt"],
     "eoir_status_en": ["eoir_status_en.txt"], "acis_intro_en": ["acis_en.txt"], "acis_official_en": ["acis_en.txt"],
     "acis_intro_es": ["acis_es.txt"], "acis_official_es": ["acis_es.txt"], "eoir_list_az_en": EOIR_LIST,
-    "aclu_lawsuit_en": ["aclu_lawsuit.txt"], "zine_family_en": ["pdf/z_plain.txt"], "zine_family_es": ["pdf/z_plain.txt"],
-    "zine_lawyer_en": ["pdf/z_plain.txt"], "acluaz_limits_en": ["misc/acluaz_contact.txt"],
 }
-for k in ("odls_what", "odls_search", "odls_exact", "odls_notin", "odls_found", "odls_notfound"):
-    for lang in ("en", "es"):
-        SOURCE["%s_%s" % (k, lang)] = [BR[lang]]
 
 
 def norm(s):
